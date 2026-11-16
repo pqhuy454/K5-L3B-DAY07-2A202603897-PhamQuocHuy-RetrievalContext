@@ -1,0 +1,1383 @@
+[
+  {
+    "query_id": "adv_t01",
+    "split": "test",
+    "category": "Bảng",
+    "question": "Theo bảng Tóm tắt thông tin tài chính 2018–2022 (ĐVT: tỷ đồng), chỉ tiêu Tiền ròng của Vinamilk năm 2018 và năm 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo bảng Tóm tắt thông tin tài chính 2018–2022 (ĐVT: tỷ đồng) trên trang 16, chỉ tiêu Tiền ròng của Vinamilk năm 2018 là 8.921 tỷ đồng và năm 2022 là 14.781 tỷ đồng.",
+    "citations": [
+      {
+        "page": 16,
+        "region": "Bảng Tóm tắt thông tin tài chính"
+      }
+    ],
+    "viewed_pages": [
+      16
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "bảng Tóm tắt thông tin tài chính 2018–2022 Tiền ròng",
+        "pages": [
+          112,
+          16,
+          158,
+          15,
+          138,
+          135,
+          147,
+          4
+        ],
+        "ids": [
+          "ADV_VNM2022_p112_c01",
+          "ADV_VNM2022_p016_vis",
+          "ADV_VNM2022_p158_c03",
+          "ADV_VNM2022_p015_c01",
+          "ADV_VNM2022_p138_c03",
+          "ADV_VNM2022_p135_c03",
+          "ADV_VNM2022_p147_vis",
+          "ADV_VNM2022_p004_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 16
+      }
+    ],
+    "elapsed_ms": 12367.03,
+    "prompt_tokens": 7165,
+    "completion_tokens": 189,
+    "cost_usd": 0.001862,
+    "error": null
+  },
+  {
+    "query_id": "adv_t02",
+    "split": "test",
+    "category": "Bảng",
+    "question": "Theo bảng Tóm tắt thông tin tài chính 2018–2022 (ĐVT: tỷ đồng), Nợ vay ngắn hạn và Nợ vay dài hạn năm 2022 của Vinamilk lần lượt là bao nhiêu tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo bảng Tóm tắt thông tin tài chính 2018–2022 (ĐVT: tỷ đồng) trên trang 16, Nợ vay ngắn hạn năm 2022 của Vinamilk là 4.867 tỷ đồng và Nợ vay dài hạn là 66 tỷ đồng.",
+    "citations": [
+      {
+        "page": 16,
+        "region": "Bảng Tóm tắt thông tin tài chính"
+      }
+    ],
+    "viewed_pages": [
+      16
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "bảng Tóm tắt thông tin tài chính 2018–2022 Nợ vay ngắn hạn và Nợ vay dài hạn năm 2022",
+        "pages": [
+          125,
+          147,
+          146,
+          135,
+          125,
+          158,
+          141,
+          164
+        ],
+        "ids": [
+          "ADV_VNM2022_p125_c06",
+          "ADV_VNM2022_p147_c03",
+          "ADV_VNM2022_p146_vis",
+          "ADV_VNM2022_p135_c03",
+          "ADV_VNM2022_p125_c05",
+          "ADV_VNM2022_p158_c03",
+          "ADV_VNM2022_p141_c04",
+          "ADV_VNM2022_p164_c01"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 16
+      }
+    ],
+    "elapsed_ms": 6517.85,
+    "prompt_tokens": 6669,
+    "completion_tokens": 198,
+    "cost_usd": 0.001754,
+    "error": null
+  },
+  {
+    "query_id": "adv_t03",
+    "split": "test",
+    "category": "Bảng",
+    "question": "Theo bảng Tóm tắt thông tin tài chính 2018–2022, Tỷ suất LN trên vốn CSH và Hệ số nợ trên nguồn vốn năm 2022 là bao nhiêu phần trăm?",
+    "status": "answered",
+    "answer": "Theo bảng Tóm tắt thông tin tài chính 2018–2022 trên trang 16, Tỷ suất LN trên vốn CSH năm 2022 là 26% và Hệ số nợ trên nguồn vốn năm 2022 là 15%.",
+    "citations": [
+      {
+        "page": 16,
+        "region": "Bảng Tóm tắt thông tin tài chính"
+      }
+    ],
+    "viewed_pages": [
+      16
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "bảng Tóm tắt thông tin tài chính 2018–2022",
+        "pages": [
+          16,
+          158,
+          15,
+          135,
+          138,
+          147,
+          4,
+          141
+        ],
+        "ids": [
+          "ADV_VNM2022_p016_vis",
+          "ADV_VNM2022_p158_c03",
+          "ADV_VNM2022_p015_c01",
+          "ADV_VNM2022_p135_c03",
+          "ADV_VNM2022_p138_c03",
+          "ADV_VNM2022_p147_vis",
+          "ADV_VNM2022_p004_vis",
+          "ADV_VNM2022_p141_c04"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 16
+      }
+    ],
+    "elapsed_ms": 6150.46,
+    "prompt_tokens": 6734,
+    "completion_tokens": 177,
+    "cost_usd": 0.002054,
+    "error": null
+  },
+  {
+    "query_id": "adv_t04",
+    "split": "test",
+    "category": "Bảng",
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất, Doanh thu thuần về bán hàng và cung cấp dịch vụ (mã số 10) năm 2022 và năm 2021 lần lượt là bao nhiêu VND?",
+    "status": "answered",
+    "answer": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất (trang 109), Doanh thu thuần về bán hàng và cung cấp dịch vụ (mã số 10) năm 2022 là 59.956.247.197.418 VND và năm 2021 là 60.919.164.846.146 VND.",
+    "citations": [
+      {
+        "page": 109,
+        "region": "Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất"
+      }
+    ],
+    "viewed_pages": [
+      109
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Báo cáo kết quả hoạt động kinh doanh hợp nhất Doanh thu thuần về bán hàng và cung cấp dịch vụ mã số 10 năm 2022 và năm 2021",
+        "pages": [
+          154,
+          109,
+          131,
+          2,
+          129,
+          110,
+          131,
+          33
+        ],
+        "ids": [
+          "ADV_VNM2022_p154_c01",
+          "ADV_VNM2022_p109_c01",
+          "ADV_VNM2022_p131_c01",
+          "ADV_VNM2022_p002_c02",
+          "ADV_VNM2022_p129_c04",
+          "ADV_VNM2022_p110_c01",
+          "ADV_VNM2022_p131_c02",
+          "ADV_VNM2022_p033_c01"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 109
+      }
+    ],
+    "elapsed_ms": 7079.41,
+    "prompt_tokens": 7452,
+    "completion_tokens": 235,
+    "cost_usd": 0.002219,
+    "error": null
+  },
+  {
+    "query_id": "adv_t05",
+    "split": "test",
+    "category": "Bảng",
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2022, Lợi nhuận gộp về bán hàng và cung cấp dịch vụ (mã số 20) và Chi phí bán hàng (mã số 25) là bao nhiêu VND?",
+    "status": "answered",
+    "answer": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất cho năm kết thúc ngày 31 tháng 12 năm 2022 (trang 109):\n- Lợi nhuận gộp về bán hàng và cung cấp dịch vụ (mã số 20) là **23.897.231.506.707 VND**.\n- Chi phí bán hàng (mã số 25) là **12.548.212.246.871 VND**.",
+    "citations": [
+      {
+        "page": 109,
+        "region": "Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất"
+      }
+    ],
+    "viewed_pages": [
+      109
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2022 Lợi nhuận gộp về bán hàng và cung cấp dịch vụ mã số 20 và Chi phí bán hàng mã số 25",
+        "pages": [
+          64,
+          109,
+          109,
+          165,
+          131,
+          109,
+          154,
+          110
+        ],
+        "ids": [
+          "ADV_VNM2022_p064_c04",
+          "ADV_VNM2022_p109_c01",
+          "ADV_VNM2022_p109_vis",
+          "ADV_VNM2022_p165_c01",
+          "ADV_VNM2022_p131_c01",
+          "ADV_VNM2022_p109_c02",
+          "ADV_VNM2022_p154_c01",
+          "ADV_VNM2022_p110_c01"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 109
+      }
+    ],
+    "elapsed_ms": 7415.57,
+    "prompt_tokens": 8226,
+    "completion_tokens": 267,
+    "cost_usd": 0.002768,
+    "error": null
+  },
+  {
+    "query_id": "adv_t06",
+    "split": "test",
+    "category": "Bảng",
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất, Chi phí lãi vay (mã số 23) năm 2022 và năm 2021 là bao nhiêu VND, và năm 2022 tăng bao nhiêu VND so với năm 2021?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về \"Chi phí lãi vay (mã số 23)\" trong Báo cáo kết quả hoạt động kinh doanh hợp nhất. Trang 112 hiển thị \"Báo cáo lưu chuyển tiền tệ hợp nhất\" và mã số 23 là \"Tiền chi tiền gửi có kỳ hạn\".",
+    "citations": [],
+    "viewed_pages": [
+      112
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Báo cáo kết quả hoạt động kinh doanh hợp nhất Chi phí lãi vay mã số 23",
+        "pages": [
+          132,
+          112,
+          132,
+          127,
+          157,
+          132,
+          143,
+          126
+        ],
+        "ids": [
+          "ADV_VNM2022_p132_c05",
+          "ADV_VNM2022_p112_c02",
+          "ADV_VNM2022_p132_c02",
+          "ADV_VNM2022_p127_c03",
+          "ADV_VNM2022_p157_c03",
+          "ADV_VNM2022_p132_c03",
+          "ADV_VNM2022_p143_c03",
+          "ADV_VNM2022_p126_c03"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 112
+      }
+    ],
+    "elapsed_ms": 6757.95,
+    "prompt_tokens": 6504,
+    "completion_tokens": 128,
+    "cost_usd": 0.00192,
+    "error": null
+  },
+  {
+    "query_id": "adv_t07",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo sơ đồ Mô hình hoạt động của Công ty, Vinamilk nắm giữ tỷ lệ sở hữu qua hai nhánh 9% và 59% tại công ty nào trong nhóm công ty con trong nước?",
+    "status": "answered",
+    "answer": "Theo sơ đồ Mô hình hoạt động của Công ty trên trang 17, Vinamilk nắm giữ tỷ lệ sở hữu qua hai nhánh 9% và 59% tại **CTCP Giống Bò sữa Mộc Châu** (01 trang trại).",
+    "citations": [
+      {
+        "page": 17,
+        "region": "Sơ đồ Mô hình hoạt động của Công ty"
+      }
+    ],
+    "viewed_pages": [
+      17
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "sơ đồ Mô hình hoạt động của Công ty",
+        "pages": [
+          17,
+          77,
+          77,
+          121,
+          48,
+          97,
+          2,
+          145
+        ],
+        "ids": [
+          "ADV_VNM2022_p017_vis",
+          "ADV_VNM2022_p077_c02",
+          "ADV_VNM2022_p077_c01",
+          "ADV_VNM2022_p121_vis",
+          "ADV_VNM2022_p048_c01",
+          "ADV_VNM2022_p097_vis",
+          "ADV_VNM2022_p002_c01",
+          "ADV_VNM2022_p145_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 17
+      }
+    ],
+    "elapsed_ms": 6345.39,
+    "prompt_tokens": 6565,
+    "completion_tokens": 156,
+    "cost_usd": 0.001769,
+    "error": null
+  },
+  {
+    "query_id": "adv_t08",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo sơ đồ Mô hình hoạt động của Công ty, liệt kê đủ 5 công ty con, liên doanh, liên kết nước ngoài của Vinamilk kèm tỷ lệ phần trăm ghi trên sơ đồ.",
+    "status": "answered",
+    "answer": "Theo sơ đồ Mô hình hoạt động của Công ty, 5 công ty con, liên doanh, liên kết nước ngoài của Vinamilk và tỷ lệ phần trăm tương ứng là:\n1. Driftwood Dairy Holdings Corporation (100%)\n2. Angkor Dairy Products Co., Ltd. (100%)\n3. Miraka Limited (16,96%)\n4. Lao-Jagro development Xiengkhouang Co., Ltd (87,32%)\n5. Del Monte Vinamilk Dairy Philippines Inc. (50%)",
+    "citations": [
+      {
+        "page": 17,
+        "region": "Sơ đồ Mô hình hoạt động của Công ty"
+      }
+    ],
+    "viewed_pages": [
+      17
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "sơ đồ Mô hình hoạt động của Công ty",
+        "pages": [
+          17,
+          77,
+          77,
+          121,
+          48,
+          97,
+          2,
+          145
+        ],
+        "ids": [
+          "ADV_VNM2022_p017_vis",
+          "ADV_VNM2022_p077_c02",
+          "ADV_VNM2022_p077_c01",
+          "ADV_VNM2022_p121_vis",
+          "ADV_VNM2022_p048_c01",
+          "ADV_VNM2022_p097_vis",
+          "ADV_VNM2022_p002_c01",
+          "ADV_VNM2022_p145_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 17
+      }
+    ],
+    "elapsed_ms": 6390.64,
+    "prompt_tokens": 6559,
+    "completion_tokens": 225,
+    "cost_usd": 0.002291,
+    "error": null
+  },
+  {
+    "query_id": "adv_t09",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo sơ đồ Chuỗi giá trị trên trang Mô hình kinh doanh, thượng nguồn và hạ nguồn gồm những khâu nào?",
+    "status": "answered",
+    "answer": "Theo sơ đồ Mô hình kinh doanh của Vinamilk trên trang 13, các khâu có thể được hiểu là thượng nguồn và hạ nguồn bao gồm:\n\n*   **Thượng nguồn:** Nhà cung cấp và đối tác (gần 5.000 hộ nông dân chăn nuôi bò sữa và khai thác đàn bò với quy mô hơn 110.000 con), Thiên nhiên (các nguồn tài nguyên tái tạo và không thể tái tạo như đất, nước, rừng), Cổ đông/Nhà đầu tư, và Người lao động.\n*   **Hạ nguồn:** Sản phẩm (250 SKU trong 04 ngành hàng chính: Sữa nước, Sữa chua, Sữa đặc và Sữa công thức), Hạ tầng (15 trang trại và 16 nhà máy tại Việt Nam, Campuchia, Lào và Hoa Kỳ), Khách hàng/Người tiêu dùng (hệ thống phân phối gần 230 nghìn điểm bán trên cả nước, xuất khẩu đến 57 quốc gia và vùng lãnh thổ), Cộng đồng, và Chính phủ và các hiệp hội ngành.",
+    "citations": [
+      {
+        "page": 13,
+        "region": "Sơ đồ Mô hình kinh doanh của Vinamilk"
+      }
+    ],
+    "viewed_pages": [
+      13
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "sơ đồ Chuỗi giá trị trên trang Mô hình kinh doanh",
+        "pages": [
+          154,
+          137,
+          110,
+          13,
+          141,
+          145,
+          9,
+          78
+        ],
+        "ids": [
+          "ADV_VNM2022_p154_vis",
+          "ADV_VNM2022_p137_vis",
+          "ADV_VNM2022_p110_vis",
+          "ADV_VNM2022_p013_vis",
+          "ADV_VNM2022_p141_vis",
+          "ADV_VNM2022_p145_vis",
+          "ADV_VNM2022_p009_vis",
+          "ADV_VNM2022_p078_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 13
+      }
+    ],
+    "elapsed_ms": 8773.81,
+    "prompt_tokens": 6321,
+    "completion_tokens": 722,
+    "cost_usd": 0.003116,
+    "error": null
+  },
+  {
+    "query_id": "adv_t10",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo infographic Hoạt động phát triển bền vững năm 2022 (Mục tiêu 06 và 07), tỷ lệ nước thải trong hoạt động sản xuất và chăn nuôi được xử lý đạt chuẩn là bao nhiêu, và có bao nhiêu nhà máy cùng trang trại được lắp đặt hệ thống năng lượng mặt trời?",
+    "status": "answered",
+    "answer": "Theo infographic Hoạt động phát triển bền vững năm 2022 trên trang 98:\n\n*   **Mục tiêu 06: Nước sạch và điều kiện vệ sinh**\n    *   100% nước thải trong hoạt động sản xuất và chăn nuôi được xử lý đạt chuẩn.\n    *   85% lượng nước thải chăn nuôi xử lý đạt chuẩn được tuần hoàn và tái sử dụng cho trồng trọt.\n\n*   **Mục tiêu 07: Năng lượng sạch và giá hợp lý**\n    *   Trụ sở chính, 11 Nhà máy, 13 Trang trại được lắp đặt Hệ thống năng lượng mặt trời.\n\n[trang 98 | infographic Hoạt động phát triển bền vững năm 2022]",
+    "citations": [
+      {
+        "page": 98,
+        "region": "infographic Hoạt động phát triển bền vững năm 2022"
+      }
+    ],
+    "viewed_pages": [
+      98
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "infographic Hoạt động phát triển bền vững năm 2022 Mục tiêu 06 và 07",
+        "pages": [
+          98,
+          94,
+          47,
+          99,
+          94,
+          53,
+          97,
+          79
+        ],
+        "ids": [
+          "ADV_VNM2022_p098_vis",
+          "ADV_VNM2022_p094_c06",
+          "ADV_VNM2022_p047_c01",
+          "ADV_VNM2022_p099_c05",
+          "ADV_VNM2022_p094_c05",
+          "ADV_VNM2022_p053_c05",
+          "ADV_VNM2022_p097_c01",
+          "ADV_VNM2022_p079_c04"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 98
+      }
+    ],
+    "elapsed_ms": 7266.04,
+    "prompt_tokens": 5642,
+    "completion_tokens": 299,
+    "cost_usd": 0.002099,
+    "error": null
+  },
+  {
+    "query_id": "adv_t11",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo infographic Kết quả nổi bật, Vinamilk đặt mục tiêu đạt trung hòa carbon vào năm nào và tung mới, tái tung bao nhiêu sản phẩm trong năm?",
+    "status": "answered",
+    "answer": "Theo infographic \"Kết quả nổi bật\" trên trang 2, Vinamilk đặt mục tiêu đạt trung hòa carbon vào năm **2050** và đã tung mới, tái tung **hơn 20** sản phẩm trong năm.",
+    "citations": [
+      {
+        "page": 2,
+        "region": "infographic Kết quả nổi bật"
+      }
+    ],
+    "viewed_pages": [
+      2
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "infographic Kết quả nổi bật Vinamilk mục tiêu trung hòa carbon và số sản phẩm mới tái tung",
+        "pages": [
+          58,
+          2,
+          98,
+          14,
+          77,
+          77,
+          99,
+          2
+        ],
+        "ids": [
+          "ADV_VNM2022_p058_c03",
+          "ADV_VNM2022_p002_c02",
+          "ADV_VNM2022_p098_vis",
+          "ADV_VNM2022_p014_c01",
+          "ADV_VNM2022_p077_vis",
+          "ADV_VNM2022_p077_c04",
+          "ADV_VNM2022_p099_vis",
+          "ADV_VNM2022_p002_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 2
+      }
+    ],
+    "elapsed_ms": 6080.46,
+    "prompt_tokens": 6378,
+    "completion_tokens": 160,
+    "cost_usd": 0.001965,
+    "error": null
+  },
+  {
+    "query_id": "adv_t12",
+    "split": "test",
+    "category": "Biểu đồ",
+    "question": "Theo biểu đồ 'Doanh thu (Tỷ Đồng)' giai đoạn 2018–2022, giá trị doanh thu năm 2018, 2021 và 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo biểu đồ 'Doanh thu (Tỷ Đồng)' trên trang 15, giá trị doanh thu năm 2018 là 52.629 tỷ đồng, năm 2021 là 61.012 tỷ đồng và năm 2022 là 60.075 tỷ đồng.",
+    "citations": [
+      {
+        "page": 15,
+        "region": "Biểu đồ Doanh thu (Tỷ Đồng)"
+      }
+    ],
+    "viewed_pages": [
+      15
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "biểu đồ Doanh thu (Tỷ Đồng) giai đoạn 2018–2022",
+        "pages": [
+          15,
+          16,
+          159,
+          15,
+          165,
+          166,
+          6,
+          65
+        ],
+        "ids": [
+          "ADV_VNM2022_p015_vis",
+          "ADV_VNM2022_p016_vis",
+          "ADV_VNM2022_p159_vis",
+          "ADV_VNM2022_p015_c01",
+          "ADV_VNM2022_p165_vis",
+          "ADV_VNM2022_p166_vis",
+          "ADV_VNM2022_p006_vis",
+          "ADV_VNM2022_p065_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 15
+      }
+    ],
+    "elapsed_ms": 5897.54,
+    "prompt_tokens": 7775,
+    "completion_tokens": 190,
+    "cost_usd": 0.001842,
+    "error": null
+  },
+  {
+    "query_id": "adv_t13",
+    "split": "test",
+    "category": "Biểu đồ",
+    "question": "Theo biểu đồ 'Lợi nhuận sau thuế (Tỷ Đồng)' giai đoạn 2018–2022, năm nào đạt cao nhất và giá trị năm 2022 là bao nhiêu tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo biểu đồ 'Lợi nhuận sau thuế (Tỷ Đồng)' giai đoạn 2018-2022 trên trang 15, năm đạt lợi nhuận cao nhất là năm 2020 với 11.236 tỷ đồng. Giá trị lợi nhuận sau thuế năm 2022 là 8.578 tỷ đồng.",
+    "citations": [
+      {
+        "page": 15,
+        "region": "Biểu đồ Lợi nhuận sau thuế (Tỷ Đồng)"
+      }
+    ],
+    "viewed_pages": [
+      15
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "biểu đồ Lợi nhuận sau thuế (Tỷ Đồng) 2018-2022",
+        "pages": [
+          15,
+          165,
+          159,
+          157,
+          110,
+          166,
+          16,
+          15
+        ],
+        "ids": [
+          "ADV_VNM2022_p015_vis",
+          "ADV_VNM2022_p165_vis",
+          "ADV_VNM2022_p159_vis",
+          "ADV_VNM2022_p157_vis",
+          "ADV_VNM2022_p110_vis",
+          "ADV_VNM2022_p166_vis",
+          "ADV_VNM2022_p016_vis",
+          "ADV_VNM2022_p015_c01"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 15
+      }
+    ],
+    "elapsed_ms": 7285.39,
+    "prompt_tokens": 7598,
+    "completion_tokens": 201,
+    "cost_usd": 0.00242,
+    "error": null
+  },
+  {
+    "query_id": "adv_t14",
+    "split": "test",
+    "category": "Biểu đồ",
+    "question": "Theo hai biểu đồ ở hàng dưới cùng trang Tóm tắt thông tin tài chính 2018–2022, EPS (Đồng) năm 2022 và Hệ số chi trả cổ tức (%) dự kiến năm 2022 là bao nhiêu?",
+    "status": "answered",
+    "answer": "Theo bảng \"TÓM TẮT THÔNG TIN TÀI CHÍNH 2018-2022\" trên trang 16, EPS (Thu nhập mỗi cổ phần) năm 2022 là 3.632 đồng và Hệ số chi trả cổ tức (%) dự kiến năm 2022 là 94% (Dự kiến).",
+    "citations": [
+      {
+        "page": 16,
+        "region": "Bảng Tóm tắt thông tin tài chính"
+      }
+    ],
+    "viewed_pages": [
+      16
+    ],
+    "events": [
+      {
+        "event": "view_page_image",
+        "page": 16
+      }
+    ],
+    "elapsed_ms": 4398.99,
+    "prompt_tokens": 2009,
+    "completion_tokens": 155,
+    "cost_usd": 0.000702,
+    "error": null
+  },
+  {
+    "query_id": "adv_t15",
+    "split": "test",
+    "category": "Biểu đồ",
+    "question": "Theo biểu đồ 'Tăng trưởng giá Vinamilk (VNM) so với VN-INDEX' từ 01/01/2022 đến 31/12/2022, mức thay đổi cuối kỳ của VNM và VN-INDEX lần lượt là bao nhiêu phần trăm?",
+    "status": "answered",
+    "answer": "Theo biểu đồ 'Tăng trưởng giá Vinamilk (VNM) so với VN-INDEX' từ 01/01/2022 đến 31/12/2022 trên trang 18, mức thay đổi cuối kỳ của VNM là -12% và VN-INDEX là -33%.",
+    "citations": [
+      {
+        "page": 18,
+        "region": "Biểu đồ 'Tăng trưởng giá Vinamilk (VNM) so với VN-INDEX'"
+      }
+    ],
+    "viewed_pages": [
+      18
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "biểu đồ 'Tăng trưởng giá Vinamilk (VNM) so với VN-INDEX' từ 01/01/2022 đến 31/12/2022",
+        "pages": [
+          18,
+          152,
+          109,
+          163,
+          18,
+          112,
+          9,
+          87
+        ],
+        "ids": [
+          "ADV_VNM2022_p018_vis",
+          "ADV_VNM2022_p152_vis",
+          "ADV_VNM2022_p109_vis",
+          "ADV_VNM2022_p163_vis",
+          "ADV_VNM2022_p018_c01",
+          "ADV_VNM2022_p112_vis",
+          "ADV_VNM2022_p009_vis",
+          "ADV_VNM2022_p087_c02"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 18
+      }
+    ],
+    "elapsed_ms": 6442.91,
+    "prompt_tokens": 7314,
+    "completion_tokens": 223,
+    "cost_usd": 0.001801,
+    "error": null
+  },
+  {
+    "query_id": "adv_t16",
+    "split": "test",
+    "category": "Biểu đồ",
+    "question": "Theo trang Thông tin cổ phần và cổ đông (cùng biểu đồ biến động giá và khối lượng giao dịch cổ phiếu VNM), giá đóng cửa điều chỉnh cao nhất và thấp nhất năm 2022 là bao nhiêu, và khối lượng giao dịch trung bình ghi trên biểu đồ là bao nhiêu?",
+    "status": "answered",
+    "answer": "Theo trang 18 của Báo cáo thường niên Vinamilk 2022, giá đóng cửa điều chỉnh cao nhất và thấp nhất năm 2022 (từ ngày 01/01/2022 đến 31/12/2022) là:\n- Cao nhất: 86.700 đồng/cổ phiếu\n- Thấp nhất: 64.500 đồng/cổ phiếu\n\nKhối lượng giao dịch trung bình ghi trên biểu đồ \"Biến động giá và khối lượng giao dịch cổ phiếu VNM\" là 2,4 triệu cổ phiếu.",
+    "citations": [
+      {
+        "page": 18,
+        "region": "text"
+      },
+      {
+        "page": 18,
+        "region": "visual_summary"
+      }
+    ],
+    "viewed_pages": [
+      18
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Thông tin cổ phần và cổ đông biểu đồ biến động giá và khối lượng giao dịch cổ phiếu VNM",
+        "pages": [
+          19,
+          152,
+          130,
+          130,
+          18,
+          18,
+          133,
+          92
+        ],
+        "ids": [
+          "ADV_VNM2022_p019_c01",
+          "ADV_VNM2022_p152_c01",
+          "ADV_VNM2022_p130_c01",
+          "ADV_VNM2022_p130_c02",
+          "ADV_VNM2022_p018_vis",
+          "ADV_VNM2022_p018_c02",
+          "ADV_VNM2022_p133_c04",
+          "ADV_VNM2022_p092_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 18
+      }
+    ],
+    "elapsed_ms": 7048.19,
+    "prompt_tokens": 6766,
+    "completion_tokens": 272,
+    "cost_usd": 0.002301,
+    "error": null
+  },
+  {
+    "query_id": "adv_t17",
+    "split": "test",
+    "category": "Multi-hop",
+    "question": "Kết hợp biểu đồ EPS (trang 15) và bảng Tóm tắt thông tin tài chính (trang 16), tính mức giảm của EPS (đồng) từ năm 2018 đến năm 2022 và cho biết số lượng cổ phiếu lưu hành bình quân năm 2022.",
+    "status": "answered",
+    "answer": "Dựa trên biểu đồ EPS (trang 15) và bảng Tóm tắt thông tin tài chính (trang 16):\n\n*   **EPS năm 2018:** 5.295 đồng\n*   **EPS năm 2022:** 3.632 đồng\n\nMức giảm của EPS từ năm 2018 đến năm 2022 là: 5.295 - 3.632 = 1.663 đồng.\n\nSố lượng cổ phiếu lưu hành bình quân năm 2022 là 2.090 triệu cổ phiếu.",
+    "citations": [
+      {
+        "page": 15,
+        "region": "Biểu đồ EPS (Đồng)"
+      },
+      {
+        "page": 16,
+        "region": "Bảng Tóm tắt thông tin tài chính, dòng \"Thu nhập mỗi cổ phần (đồng)\" và \"Số lượng cổ phiếu lưu hành bình quân (triệu cổ phiếu)\""
+      }
+    ],
+    "viewed_pages": [
+      15,
+      16
+    ],
+    "events": [
+      {
+        "event": "view_page_image",
+        "page": 15
+      },
+      {
+        "event": "view_page_image",
+        "page": 16
+      }
+    ],
+    "elapsed_ms": 4562.77,
+    "prompt_tokens": 2347,
+    "completion_tokens": 293,
+    "cost_usd": 0.001035,
+    "error": null
+  },
+  {
+    "query_id": "adv_t18",
+    "split": "test",
+    "category": "Multi-hop",
+    "question": "Kết hợp trang Kết quả mang lại năm 2022 (trang 14) và trang Hoạt động phát triển bền vững (trang 98), cho biết tỷ lệ sử dụng năng lượng xanh và sạch trong sản xuất và số nhà máy đang sử dụng hệ thống hơi - năng lượng xanh (Biomass).",
+    "status": "answered",
+    "answer": "Tỷ lệ sử dụng năng lượng xanh và sạch trong hoạt động sản xuất của Vinamilk đạt 87% [trang 14 | text]. Có 09 nhà máy đang sử dụng hệ thống hơi - năng lượng xanh (Biomass) [trang 98 | text].",
+    "citations": [
+      {
+        "page": 14,
+        "region": "text"
+      },
+      {
+        "page": 98,
+        "region": "text"
+      }
+    ],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "tỷ lệ sử dụng năng lượng xanh và sạch trong sản xuất và số nhà máy đang sử dụng hệ thống hơi - năng lượng xanh (Biomass)",
+        "pages": [
+          98,
+          45,
+          45,
+          14,
+          46,
+          45,
+          47,
+          56
+        ],
+        "ids": [
+          "ADV_VNM2022_p098_c02",
+          "ADV_VNM2022_p045_c02",
+          "ADV_VNM2022_p045_c04",
+          "ADV_VNM2022_p014_c02",
+          "ADV_VNM2022_p046_c02",
+          "ADV_VNM2022_p045_c01",
+          "ADV_VNM2022_p047_c01",
+          "ADV_VNM2022_p056_c04"
+        ]
+      }
+    ],
+    "elapsed_ms": 3234.45,
+    "prompt_tokens": 3449,
+    "completion_tokens": 105,
+    "cost_usd": 0.000872,
+    "error": null
+  },
+  {
+    "query_id": "adv_t19",
+    "split": "test",
+    "category": "Multi-hop",
+    "question": "Kết hợp trang Giới thiệu Hội đồng Quản trị (trang 21) và Sơ đồ Mô hình hoạt động (trang 17), ai là Tổng Giám đốc của Vinamilk và 02 xí nghiệp kho vận trong nước đặt tại hai thành phố nào?",
+    "status": "answered",
+    "answer": "Tổng Giám đốc của Vinamilk là Bà Mai Kiều Liên [trang 21 | ảnh]. Hai xí nghiệp kho vận trong nước được đặt tại Hà Nội và TP. HCM [trang 17 | sơ đồ].",
+    "citations": [
+      {
+        "page": 21,
+        "region": "ảnh"
+      },
+      {
+        "page": 17,
+        "region": "sơ đồ"
+      }
+    ],
+    "viewed_pages": [
+      21,
+      17
+    ],
+    "events": [
+      {
+        "event": "view_page_image",
+        "page": 21
+      },
+      {
+        "event": "view_page_image",
+        "page": 17
+      }
+    ],
+    "elapsed_ms": 4449.05,
+    "prompt_tokens": 2333,
+    "completion_tokens": 159,
+    "cost_usd": 0.000696,
+    "error": null
+  },
+  {
+    "query_id": "adv_t20",
+    "split": "test",
+    "category": "Multi-hop",
+    "question": "Đối chiếu Báo cáo KQKD hợp nhất năm 2022 (trang 109) và bảng Tóm tắt thông tin tài chính (trang 16), nêu giá trị Doanh thu bán hàng (mã 01) và Doanh thu thuần (mã 10) bằng VND, rồi giải thích vì sao bảng tóm tắt trang 16 ghi Doanh thu là 60.075 tỷ đồng.",
+    "status": "answered",
+    "answer": "Đối chiếu Báo cáo KQKD hợp nhất năm 2022 (trang 109) và bảng Tóm tắt thông tin tài chính (trang 16), ta có các thông tin sau:\n\n*   **Doanh thu bán hàng và cung cấp dịch vụ (mã 01) năm 2022**: 60.074.730.223.299 VND [trang 109 | Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất].\n*   **Doanh thu thuần về bán hàng và cung cấp dịch vụ (mã 10) năm 2022**: 59.956.247.197.418 VND [trang 109 | Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất].\n\nBảng Tóm tắt thông tin tài chính (trang 16) ghi Doanh thu năm 2022 là 60.075 tỷ đồng. Điều này là do bảng tóm tắt sử dụng đơn vị là \"tỷ đồng\" và làm tròn số liệu từ \"Doanh thu bán hàng và cung cấp dịch vụ\" (mã 01) trên Báo cáo KQKD hợp nhất. Cụ thể, 60.074.730.223.299 VND làm tròn thành 60.075 tỷ đồng.",
+    "citations": [
+      {
+        "page": 109,
+        "region": "Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất"
+      },
+      {
+        "page": 16,
+        "region": "Bảng Tóm tắt thông tin tài chính 2018-2022"
+      }
+    ],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "get_page_text",
+        "page": 109
+      },
+      {
+        "event": "get_page_text",
+        "page": 16
+      }
+    ],
+    "elapsed_ms": 5195.41,
+    "prompt_tokens": 4611,
+    "completion_tokens": 778,
+    "cost_usd": 0.002891,
+    "error": null
+  },
+  {
+    "query_id": "adv_t21",
+    "split": "test",
+    "category": "Text",
+    "question": "Theo Thông điệp của Tổng Giám đốc, trong năm 2022 thị trường nội địa của Vinamilk ghi nhận doanh thu thuần hợp nhất và lợi nhuận gộp là bao nhiêu tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo Thông điệp của Tổng Giám đốc, trong năm 2022 thị trường nội địa của Vinamilk ghi nhận doanh thu thuần hợp nhất là 50.704 tỷ đồng và lợi nhuận gộp là 20.556 tỷ đồng.",
+    "citations": [
+      {
+        "page": 6,
+        "region": "text"
+      }
+    ],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Thông điệp của Tổng Giám đốc doanh thu thuần hợp nhất và lợi nhuận gộp thị trường nội địa 2022",
+        "pages": [
+          6,
+          6,
+          80,
+          2,
+          3,
+          110,
+          7,
+          154
+        ],
+        "ids": [
+          "ADV_VNM2022_p006_c04",
+          "ADV_VNM2022_p006_vis",
+          "ADV_VNM2022_p080_c05",
+          "ADV_VNM2022_p002_c01",
+          "ADV_VNM2022_p003_c01",
+          "ADV_VNM2022_p110_vis",
+          "ADV_VNM2022_p007_c01",
+          "ADV_VNM2022_p154_c01"
+        ]
+      }
+    ],
+    "elapsed_ms": 3687.36,
+    "prompt_tokens": 3696,
+    "completion_tokens": 202,
+    "cost_usd": 0.001187,
+    "error": null
+  },
+  {
+    "query_id": "adv_t22",
+    "split": "test",
+    "category": "Text",
+    "question": "Theo trang Kết quả mang lại trong năm 2022 (trang 14), tỷ lệ nước tuần hoàn và tái sử dụng cho trồng trọt và tỷ lệ tái chế phân thải bò lần lượt đạt bao nhiêu phần trăm?",
+    "status": "answered",
+    "answer": "Theo trang 14 của Báo cáo thường niên Vinamilk 2022, tỷ lệ nước tuần hoàn và tái sử dụng cho trồng trọt đạt 85% và tỷ lệ tái chế phân thải bò đạt 100%.",
+    "citations": [
+      {
+        "page": 14,
+        "region": "Tỷ lệ nước tuần hoàn và tái sử dụng cho trồng trọt đạt 85%.\nTỷ lệ tái chế phân thải bò đạt 100%."
+      }
+    ],
+    "viewed_pages": [
+      14
+    ],
+    "events": [
+      {
+        "event": "view_page_image",
+        "page": 14
+      }
+    ],
+    "elapsed_ms": 4176.09,
+    "prompt_tokens": 1991,
+    "completion_tokens": 152,
+    "cost_usd": 0.00069,
+    "error": null
+  },
+  {
+    "query_id": "adv_t23",
+    "split": "test",
+    "category": "Text",
+    "question": "Theo mục 'Theo khu vực' trên trang Tổng quan ngành sữa Việt Nam năm 2022, xu hướng chuyển dịch người tiêu dùng về nông thôn đến từ nguyên nhân chủ động và bị động nào?",
+    "status": "answered",
+    "answer": "Xu hướng chuyển dịch người tiêu dùng về nông thôn đến từ hai nguyên nhân chính:\n\n*   **Chủ động**: Sự dịch chuyển của một nhóm người tiêu dùng cần môi trường sống bớt ồn ào hơn như ở thành thị.\n*   **Bị động**: Làn sóng cắt giảm nhân công ở các khu công nghiệp.\n\n(Trang 34 | văn bản)",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Tổng quan ngành sữa Việt Nam năm 2022 theo khu vực xu hướng chuyển dịch người tiêu dùng về nông thôn",
+        "pages": [
+          12,
+          13,
+          58,
+          34,
+          98,
+          34,
+          73,
+          34
+        ],
+        "ids": [
+          "ADV_VNM2022_p012_c01",
+          "ADV_VNM2022_p013_c04",
+          "ADV_VNM2022_p058_c01",
+          "ADV_VNM2022_p034_c04",
+          "ADV_VNM2022_p098_c05",
+          "ADV_VNM2022_p034_c02",
+          "ADV_VNM2022_p073_c01",
+          "ADV_VNM2022_p034_c01"
+        ]
+      },
+      {
+        "event": "get_page_text",
+        "page": 34
+      }
+    ],
+    "elapsed_ms": 4922.81,
+    "prompt_tokens": 8004,
+    "completion_tokens": 139,
+    "cost_usd": 0.001568,
+    "error": null
+  },
+  {
+    "query_id": "adv_t24",
+    "split": "test",
+    "category": "Text",
+    "question": "Theo kết quả khảo sát về hoạt động Quan hệ cổ đông năm 2022 ở trang 65 (đánh số trang 67), tỷ lệ nhà đầu tư hài lòng với chất lượng sự kiện và hài lòng với chất lượng tài liệu công bố lần lượt là bao nhiêu phần trăm?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về kết quả khảo sát về hoạt động Quan hệ cổ đông năm 2022 ở trang 67. Trang này trình bày các thông tin về \"Nơi làm việc hấp dẫn\" của Vinamilk, bao gồm các khía cạnh về Văn hóa, Chính sách phúc lợi, Cơ sở vật chất và Hiệu quả.",
+    "citations": [],
+    "viewed_pages": [
+      67
+    ],
+    "events": [
+      {
+        "event": "view_page_image",
+        "page": 67
+      }
+    ],
+    "elapsed_ms": 5110.77,
+    "prompt_tokens": 2017,
+    "completion_tokens": 101,
+    "cost_usd": 0.000569,
+    "error": null
+  },
+  {
+    "query_id": "adv_u04",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "question": "Số điện thoại cá nhân và địa chỉ email riêng của từng thành viên Hội đồng Quản trị Vinamilk là gì?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về số điện thoại cá nhân và địa chỉ email riêng của từng thành viên Hội đồng Quản trị Vinamilk.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Số điện thoại cá nhân và địa chỉ email riêng của từng thành viên Hội đồng Quản trị Vinamilk",
+        "pages": [
+          79,
+          21,
+          31,
+          31,
+          35,
+          80,
+          82,
+          82
+        ],
+        "ids": [
+          "ADV_VNM2022_p079_c01",
+          "ADV_VNM2022_p021_vis",
+          "ADV_VNM2022_p031_c02",
+          "ADV_VNM2022_p031_c05",
+          "ADV_VNM2022_p035_c05",
+          "ADV_VNM2022_p080_vis",
+          "ADV_VNM2022_p082_c04",
+          "ADV_VNM2022_p082_c02"
+        ]
+      }
+    ],
+    "elapsed_ms": 3383.28,
+    "prompt_tokens": 3465,
+    "completion_tokens": 74,
+    "cost_usd": 0.000802,
+    "error": null
+  },
+  {
+    "query_id": "adv_u05",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "question": "Doanh thu thực tế cả năm 2024 của Vinamilk là bao nhiêu tỷ đồng?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về doanh thu thực tế cả năm 2024 của Vinamilk. Báo cáo thường niên 2022 chỉ cung cấp thông tin về kết quả kinh doanh đến hết năm 2022 và kế hoạch, định hướng cho năm 2023.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Doanh thu thực tế cả năm 2024 của Vinamilk",
+        "pages": [
+          165,
+          7,
+          131,
+          6,
+          131,
+          5,
+          131,
+          62
+        ],
+        "ids": [
+          "ADV_VNM2022_p165_vis",
+          "ADV_VNM2022_p007_c08",
+          "ADV_VNM2022_p131_c04",
+          "ADV_VNM2022_p006_c03",
+          "ADV_VNM2022_p131_c01",
+          "ADV_VNM2022_p005_c02",
+          "ADV_VNM2022_p131_c02",
+          "ADV_VNM2022_p062_c03"
+        ]
+      }
+    ],
+    "elapsed_ms": 3270.88,
+    "prompt_tokens": 3228,
+    "completion_tokens": 101,
+    "cost_usd": 0.000802,
+    "error": null
+  },
+  {
+    "query_id": "adv_u06",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "question": "Ngân sách chi cho hoạt động R&D của Vinamilk dự kiến riêng cho năm 2024 là bao nhiêu tỷ đồng?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về ngân sách chi cho hoạt động R&D của Vinamilk dự kiến riêng cho năm 2024.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Ngân sách chi cho hoạt động R&D của Vinamilk dự kiến riêng cho năm 2024",
+        "pages": [
+          95,
+          1,
+          53,
+          113,
+          127,
+          157,
+          109,
+          147
+        ],
+        "ids": [
+          "ADV_VNM2022_p095_c02",
+          "ADV_VNM2022_p001_c01",
+          "ADV_VNM2022_p053_c01",
+          "ADV_VNM2022_p113_vis",
+          "ADV_VNM2022_p127_c03",
+          "ADV_VNM2022_p157_vis",
+          "ADV_VNM2022_p109_vis",
+          "ADV_VNM2022_p147_c03"
+        ]
+      }
+    ],
+    "elapsed_ms": 3007.97,
+    "prompt_tokens": 3435,
+    "completion_tokens": 76,
+    "cost_usd": 0.000798,
+    "error": null
+  },
+  {
+    "query_id": "adv_u07",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "question": "Trong năm 2022, Vinamilk đã đóng góp chính xác bao nhiêu tỷ đồng vào Quỹ vắc-xin phòng chống Covid-19 của Chính phủ?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập/không cung cấp thông tin về số tiền chính xác Vinamilk đã đóng góp vào Quỹ vắc-xin phòng chống Covid-19 của Chính phủ trong năm 2022.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Vinamilk đóng góp Quỹ vắc-xin phòng chống Covid-19 năm 2022",
+        "pages": [
+          55,
+          94,
+          72,
+          90,
+          93,
+          95,
+          149,
+          96
+        ],
+        "ids": [
+          "ADV_VNM2022_p055_c01",
+          "ADV_VNM2022_p094_c05",
+          "ADV_VNM2022_p072_c01",
+          "ADV_VNM2022_p090_c01",
+          "ADV_VNM2022_p093_c03",
+          "ADV_VNM2022_p095_c02",
+          "ADV_VNM2022_p149_c01",
+          "ADV_VNM2022_p096_c03"
+        ]
+      },
+      {
+        "event": "get_page_text",
+        "page": 72
+      }
+    ],
+    "elapsed_ms": 4857.65,
+    "prompt_tokens": 6730,
+    "completion_tokens": 248,
+    "cost_usd": 0.001483,
+    "error": null
+  },
+  {
+    "query_id": "adv_u08",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "question": "Giá cổ phiếu VNM mục tiêu mà HĐQT đặt ra cho cuối năm 2025 là bao nhiêu đồng/cổ phiếu?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập/không cung cấp thông tin về giá cổ phiếu VNM mục tiêu mà HĐQT đặt ra cho cuối năm 2025. Báo cáo thường niên 2022 chỉ cung cấp thông tin về biến động giá cổ phiếu VNM trong năm 2022, bao gồm giá đóng cửa điều chỉnh cao nhất là 86.700 đồng/cổ phiếu và thấp nhất là 64.500 đồng/cổ phiếu.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Giá cổ phiếu VNM mục tiêu mà HĐQT đặt ra cho cuối năm 2025",
+        "pages": [
+          18,
+          152,
+          135,
+          130,
+          137,
+          18,
+          162,
+          124
+        ],
+        "ids": [
+          "ADV_VNM2022_p018_vis",
+          "ADV_VNM2022_p152_c02",
+          "ADV_VNM2022_p135_c02",
+          "ADV_VNM2022_p130_c01",
+          "ADV_VNM2022_p137_c02",
+          "ADV_VNM2022_p018_c01",
+          "ADV_VNM2022_p162_c01",
+          "ADV_VNM2022_p124_c03"
+        ]
+      }
+    ],
+    "elapsed_ms": 5212.91,
+    "prompt_tokens": 4288,
+    "completion_tokens": 142,
+    "cost_usd": 0.001211,
+    "error": null
+  },
+  {
+    "query_id": "adv_u09",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "question": "Tỷ lệ thị phần của Vinamilk riêng tại thị trường châu Âu trong năm 2022 là bao nhiêu phần trăm?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về tỷ lệ thị phần của Vinamilk riêng tại thị trường châu Âu trong năm 2022.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Tỷ lệ thị phần của Vinamilk tại thị trường châu Âu năm 2022",
+        "pages": [
+          65,
+          12,
+          7,
+          7,
+          150,
+          92,
+          18,
+          34
+        ],
+        "ids": [
+          "ADV_VNM2022_p065_vis",
+          "ADV_VNM2022_p012_vis",
+          "ADV_VNM2022_p007_c01",
+          "ADV_VNM2022_p007_c08",
+          "ADV_VNM2022_p150_vis",
+          "ADV_VNM2022_p092_c03",
+          "ADV_VNM2022_p018_vis",
+          "ADV_VNM2022_p034_vis"
+        ]
+      }
+    ],
+    "elapsed_ms": 3668.31,
+    "prompt_tokens": 3699,
+    "completion_tokens": 70,
+    "cost_usd": 0.001101,
+    "error": null
+  }
+]

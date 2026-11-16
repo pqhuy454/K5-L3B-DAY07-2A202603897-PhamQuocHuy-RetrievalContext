@@ -58,4 +58,28 @@ Một cấu hình có thể đồng thời là phương pháp mới và cải th
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-- Không thực hiện (bài làm tập trung hoàn thiện Phần cơ bản — 85 điểm).
+- Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản: Báo cáo thường niên Công ty Cổ phần Sữa Việt Nam (Vinamilk) năm 2022 (`vinamilk_ar_2022.pdf`, 172 trang PDF, công bố công khai tại `https://www.vinamilk.com.vn/bao-cao-thuong-nien/bao-cao/2022/download-file/vinamilk_ar_2022.pdf`). Không phân phối lại file PDF gốc trên repo (chỉ lưu script tái tạo và index/trace).
+- Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý:
+  - Index toàn bộ **172/172 trang** (`0` trang lỗi, `0` trang dưới 50 ký tự). Dùng `pypdf` trích xuất text thành 647 text chunks (~650 ký tự, overlap 100), kết hợp `Windows.Data.Pdf` render **172/172 trang** sang PNG (`data/advanced_pages/page_001.png`..`page_172.png`) và dùng `openai/gpt-4o-mini` tạo 172 `visual_summary` chunks (tổng **819 chunks**, chi phí Vision index `$0.0899`). Embed bằng `paraphrase-multilingual-MiniLM-L12-v2` vào `pgvector` (`strategy='ADV_VNM2022'`).
+  - Agent sử dụng **`google/gemini-2.5-flash`** (OpenRouter) với 3 tools: `search_hybrid` (`top_k=8`), `get_page_text(page)`, và **`view_page_image(page)`** để quan sát trực tiếp trang PDF gốc khi đọc bảng, biểu đồ, ảnh/sơ đồ.
+- Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:
+  - Chia cố định **48 câu** (`data/advanced_cases.json`): **Dev (18 câu)** = 15 có đáp án (3 Bảng, 3 Ảnh/sơ đồ, 3 Biểu đồ, 3 Multi-hop, 3 Text) + 3 thiếu bằng chứng; **Test (30 câu)** = 24 có đáp án (6 Bảng, 5 Ảnh/sơ đồ, 5 Biểu đồ, 4 Multi-hop, 4 Text) + 6 thiếu bằng chứng. Mỗi câu có `id`, `split`, `category`, `expected_answer`, `evidence` (`page`, `region`).
+  - Chốt cấu hình trên `dev` với `google/gemini-2.5-flash` (`top_k=8`, `max_turns=8`, `max_images=4`, `errors=0`, chi phí `dev`: `$0.03043`).
+
+| Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
+|---|---|---|---|
+| Bảng | 5/6 | 83.3% | `adv_t01`–`adv_t05` đúng đơn vị VND/tỷ đồng; `adv_t06` xem nhầm trang 112 thay vì 109 rồi abstain. |
+| Ảnh, sơ đồ | 4/5 | 80.0% | `adv_t07`, `adv_t08`, `adv_t10`, `adv_t11` đạt; `adv_t09` trả lời theo trang 13 thay vì sơ đồ Chuỗi giá trị trang 14. |
+| Biểu đồ | 5/5 | 100.0% | `adv_t12`–`adv_t16` đọc đúng giá trị, % và khối lượng giao dịch trung bình (`adv_t14` cite bảng trang 16 cùng số liệu). |
+| Multi-hop | 4/4 | 100.0% | `adv_t17`–`adv_t20` kết hợp đủ 2 trang, tính hiệu số và giải thích làm tròn chính xác. |
+| Text | 3/4 | 75.0% | `adv_t21`–`adv_t23` đạt; `adv_t24` nhầm số trang PDF 65 với số trang in 67 nên abstain. |
+| Thiếu bằng chứng | 6/6 | 100.0% | `adv_u04`–`adv_u09` đều từ chối chuẩn xác, không suy diễn. |
+| **Toàn bộ** | **27/30** | **90.0%** | **Đạt ngưỡng $\ge 90\%$ (27/30); 0 lỗi hệ thống.** |
+
+- Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống:
+  - Script: `src/advanced_scan.py`, `src/advanced_index.py`, `src/advanced_agent.py`.
+  - Kết quả & nhãn `test`: `results/advanced_test/{traces.json, reviews.json}` (`errors=0`, chi phí chạy `test`: `$0.04859`; tổng chi phí toàn phần nâng cao gồm index + dev + test: `$0.16892`).
+- Giới hạn, cách tái lập và đường dẫn benchmark:
+  - Benchmark: `data/advanced_cases.json`; trang PNG & chunks: `data/advanced_pages/`, `data/advanced_chunks.json`.
+  - Giới hạn: Chưa có bước tách/quy đổi tự động giữa số trang in trên footer tài liệu (ví dụ trang in 67) và chỉ số trang PDF (trang 65), dẫn tới lỗi ở `adv_t24`. Chưa crop từng vùng bảng/biểu đồ riêng mà gửi cả trang PNG cho Vision model.
+  - Lệnh tái lập: `python src/advanced_index.py` rồi `python src/advanced_agent.py --split dev` và `python src/advanced_agent.py --split test`.

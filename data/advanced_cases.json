@@ -1,0 +1,434 @@
+[
+  {
+    "id": "adv_d01",
+    "split": "dev",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo bảng Kết quả nổi bật (trang 2 PDF), tổng đàn bò bình quân đang quản lý và số điểm bán tại Việt Nam của Vinamilk năm 2022 lần lượt là bao nhiêu?",
+    "expected_answer": "Hơn 146.000 con bò và 230.000 điểm bán tại Việt Nam.",
+    "evidence": [{"page": 2, "region": "Bảng Kết quả nổi bật (hàng 3 cột 1 & hàng 4 cột 1)"}]
+  },
+  {
+    "id": "adv_d02",
+    "split": "dev",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Trên Báo cáo tình hình tài chính hợp nhất tại ngày 31/12/2022, chỉ tiêu Tổng nguồn vốn (mã số 440) là bao nhiêu VND so với ngày 1/1/2022?",
+    "expected_answer": "48.482.664.236.220 VND tại 31/12/2022 (so với 53.332.403.438.219 VND tại 1/1/2022).",
+    "evidence": [{"page": 108, "region": "Bảng Cân đối kế toán hợp nhất - hàng Tổng nguồn vốn (mã 440)"}]
+  },
+  {
+    "id": "adv_d03",
+    "split": "dev",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2022, lợi nhuận sau thuế TNDN phân bổ cho Chủ sở hữu của Công ty (mã số 61) và Lợi ích cổ đông không kiểm soát (mã số 62) lần lượt là bao nhiêu VND?",
+    "expected_answer": "Chủ sở hữu của Công ty: 8.516.023.694.342 VND; Lợi ích cổ đông không kiểm soát: 61.551.625.366 VND.",
+    "evidence": [{"page": 110, "region": "Bảng KQKD hợp nhất - mã số 61 và 62"}]
+  },
+  {
+    "id": "adv_d04",
+    "split": "dev",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo trang Lịch sử phát triển giai đoạn 2013–2018 (kèm ảnh xe tải Driftwood/AngkorMilk), năm 2013 Vinamilk đầu tư nắm giữ bao nhiêu phần trăm cổ phần ban đầu của Driftwood Dairy Holdings Corporation tại California, Hoa Kỳ và tăng lên 100% vào năm nào?",
+    "expected_answer": "70% cổ phần vào năm 2013 và tăng lên 100% vào năm 2016.",
+    "evidence": [{"page": 10, "region": "Mốc Năm 2013 cạnh ảnh xe tải Driftwood"}]
+  },
+  {
+    "id": "adv_d05",
+    "split": "dev",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo Sơ đồ tổ chức và cơ cấu quản lý, Hội đồng Quản trị có mấy ủy ban trực thuộc (nêu tên) và đường nét đứt trong sơ đồ biểu thị loại báo cáo nào?",
+    "expected_answer": "Có 4 ủy ban (Ủy ban Chiến lược, Ủy ban Nhân sự, Ủy ban Lương thưởng, Ủy ban Kiểm toán); đường nét đứt biểu thị 'Báo cáo theo chức năng được quy định'.",
+    "evidence": [{"page": 20, "region": "Sơ đồ tổ chức và chú giải góc dưới trái"}]
+  },
+  {
+    "id": "adv_d06",
+    "split": "dev",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo trang Giới thiệu Hội đồng Quản trị, ông Nguyễn Hạnh Phúc và ông Đỗ Lê Hùng giữ các chức vụ gì tại HĐQT và các ủy ban?",
+    "expected_answer": "Ông Nguyễn Hạnh Phúc: Chủ tịch HĐQT độc lập, Chủ tịch Ủy ban Nhân sự, Thành viên Ủy ban Lương thưởng; Ông Đỗ Lê Hùng: Thành viên HĐQT độc lập, Chủ tịch Ủy ban Kiểm toán.",
+    "evidence": [{"page": 21, "region": "Thẻ chân dung ông Nguyễn Hạnh Phúc và ông Đỗ Lê Hùng"}]
+  },
+  {
+    "id": "adv_d07",
+    "split": "dev",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo biểu đồ 'Lợi nhuận trước thuế, lãi vay và khấu hao (Tỷ Đồng)' giai đoạn 2018–2022, năm nào đạt mức cao nhất và năm 2022 đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "Cao nhất năm 2020 đạt 15.871 tỷ đồng; năm 2022 đạt 12.757 tỷ đồng.",
+    "evidence": [{"page": 15, "region": "Biểu đồ cột góc trên bên phải"}]
+  },
+  {
+    "id": "adv_d08",
+    "split": "dev",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo biểu đồ 'Tổng tài sản (Tỷ Đồng)' giai đoạn 2018–2022, tổng tài sản năm 2021 và năm 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Năm 2021: 53.332 tỷ đồng; năm 2022: 48.483 tỷ đồng.",
+    "evidence": [{"page": 15, "region": "Biểu đồ cột hàng giữa bên phải"}]
+  },
+  {
+    "id": "adv_d09",
+    "split": "dev",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo biểu đồ 'Ngân sách nộp Nhà nước (ĐVT nghìn tỷ)', số tiền nộp ngân sách năm 2020 và năm 2022 lần lượt là bao nhiêu nghìn tỷ đồng?",
+    "expected_answer": "Năm 2020: 4,9 nghìn tỷ đồng; năm 2022: 3,8 nghìn tỷ đồng.",
+    "evidence": [{"page": 65, "region": "Biểu đồ cột góc trên bên trái"}]
+  },
+  {
+    "id": "adv_d10",
+    "split": "dev",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Đối chiếu bảng Kết quả nổi bật (trang 2) và bảng Tóm tắt thông tin tài chính 2018–2022 (trang 16), giá trị vốn hóa tại ngày 31/12/2022 là bao nhiêu tỷ đồng và giá cổ phiếu năm 2022 tương ứng là bao nhiêu đồng?",
+    "expected_answer": "Vốn hóa tại 31/12/2022 là 159.046 tỷ đồng; giá cổ phiếu năm 2022 là 76.100 đồng.",
+    "evidence": [{"page": 2, "region": "Ô Vốn hóa"}, {"page": 16, "region": "Hàng Giá cổ phiếu (đồng)"}]
+  },
+  {
+    "id": "adv_d11",
+    "split": "dev",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Kết hợp trang Mô hình kinh doanh (trang 13) và Sơ đồ tổ chức (trang 20), tại ngày 31/12/2022 toàn tập đoàn có bao nhiêu nhân sự và có bao nhiêu Giám đốc điều hành/Giám đốc chức năng ở phần xanh lá bên dưới Tổng Giám đốc?",
+    "expected_answer": "9.506 nhân sự; có 11 vị trí Giám đốc điều hành/chức năng màu xanh lá (5 bên trái, 6 bên phải).",
+    "evidence": [{"page": 13, "region": "Mục Người lao động"}, {"page": 20, "region": "Nhánh 11 ô xanh lá bên dưới Tổng Giám đốc"}]
+  },
+  {
+    "id": "adv_d12",
+    "split": "dev",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Trên Báo cáo tài chính hợp nhất năm 2022, Quỹ đầu tư phát triển tại ngày 31/12/2022 (mã số 418) là bao nhiêu VND và Lợi nhuận sau thuế TNDN năm 2022 (mã số 60) là bao nhiêu VND?",
+    "expected_answer": "Quỹ đầu tư phát triển: 5.266.761.584.973 VND; Lợi nhuận sau thuế TNDN năm 2022: 8.577.575.319.708 VND.",
+    "evidence": [{"page": 108, "region": "Mã số 418"}, {"page": 110, "region": "Mã số 60"}]
+  },
+  {
+    "id": "adv_d13",
+    "split": "dev",
+    "category": "Text",
+    "answerable": true,
+    "question": "Theo Thông điệp của Chủ tịch Hội đồng Quản trị, giá trị thương hiệu Vinamilk năm 2022 được định giá bao nhiêu và tăng bao nhiêu phần trăm so với cùng kỳ theo Brand Finance?",
+    "expected_answer": "2,8 tỷ Đô la Mỹ, tăng 18% so với cùng kỳ.",
+    "evidence": [{"page": 5, "region": "Đoạn về giá trị thương hiệu"}]
+  },
+  {
+    "id": "adv_d14",
+    "split": "dev",
+    "category": "Text",
+    "answerable": true,
+    "question": "Theo mục 'Theo độ tuổi' trên trang Tổng quan ngành sữa Việt Nam năm 2022, người tiêu dùng thế hệ X (45–60 tuổi), thế hệ Y (25–44 tuổi) và thế hệ Z (13–24 tuổi) ưu tiên nhu cầu gì?",
+    "expected_answer": "Thế hệ X ưu tiên nâng cao sức khỏe và sức đề kháng; thế hệ Y quan tâm thải độc và làm đẹp da; thế hệ Z có nhu cầu tăng cường tiêu hóa và cải thiện vóc dáng.",
+    "evidence": [{"page": 34, "region": "Khối 'Theo độ tuổi' góc dưới phải"}]
+  },
+  {
+    "id": "adv_d15",
+    "split": "dev",
+    "category": "Text",
+    "answerable": true,
+    "question": "Theo phần chuyển đổi số Khối Tài chính ở trang 65 (đánh số trang 67), Khối Tài chính đã triển khai hệ thống quản lý ngân sách nào và hoàn thành hệ thống hóa đơn điện tử trước thời hạn bắt buộc theo Thông tư 78 vào ngày nào?",
+    "expected_answer": "Hệ thống HPM (Hyperion Performance Management) và triển khai hóa đơn điện tử trước ngày 01/07/2022.",
+    "evidence": [{"page": 65, "region": "Cột văn bản bên trái"}]
+  },
+  {
+    "id": "adv_u01",
+    "split": "dev",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Kế hoạch doanh thu hợp nhất và lợi nhuận sau thuế mục tiêu cụ thể của Vinamilk cho năm 2025 là bao nhiêu tỷ đồng?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Báo cáo thường niên 2022 chỉ có số liệu thực tế 2018–2022 và định hướng chiến lược định tính 2022–2026, không có chỉ tiêu con số năm 2025."
+  },
+  {
+    "id": "adv_u02",
+    "split": "dev",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Giá bán lẻ niêm yết của một hộp sữa tươi Vinamilk 100% dung tích 1 lít tại siêu thị năm 2022 là bao nhiêu đồng?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Báo cáo thường niên không liệt kê giá bán lẻ từng sản phẩm."
+  },
+  {
+    "id": "adv_u03",
+    "split": "dev",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Vinamilk nắm giữ bao nhiêu phần trăm cổ phần tại công ty TH True Milk hoặc Nutifood trong năm 2022?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Từ khóa 'th true milk' và 'nutifood' xuất hiện 0 lần trong 172 trang."
+  },
+  {
+    "id": "adv_t01",
+    "split": "test",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo bảng Tóm tắt thông tin tài chính 2018–2022 (ĐVT: tỷ đồng), chỉ tiêu Tiền ròng của Vinamilk năm 2018 và năm 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Năm 2018: 8.921 tỷ đồng; năm 2022: 14.781 tỷ đồng.",
+    "evidence": [{"page": 16, "region": "Bảng Tóm tắt thông tin tài chính - hàng Tiền ròng"}]
+  },
+  {
+    "id": "adv_t02",
+    "split": "test",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo bảng Tóm tắt thông tin tài chính 2018–2022 (ĐVT: tỷ đồng), Nợ vay ngắn hạn và Nợ vay dài hạn năm 2022 của Vinamilk lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Nợ vay ngắn hạn: 4.867 tỷ đồng; Nợ vay dài hạn: 66 tỷ đồng.",
+    "evidence": [{"page": 16, "region": "Bảng Tóm tắt thông tin tài chính - hàng Nợ vay ngắn hạn và Nợ vay dài hạn"}]
+  },
+  {
+    "id": "adv_t03",
+    "split": "test",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo bảng Tóm tắt thông tin tài chính 2018–2022, Tỷ suất LN trên vốn CSH và Hệ số nợ trên nguồn vốn năm 2022 là bao nhiêu phần trăm?",
+    "expected_answer": "Tỷ suất LN trên vốn CSH: 26%; Hệ số nợ trên nguồn vốn: 15%.",
+    "evidence": [{"page": 16, "region": "Bảng Tóm tắt thông tin tài chính - mục Các chỉ số tài chính"}]
+  },
+  {
+    "id": "adv_t04",
+    "split": "test",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất, Doanh thu thuần về bán hàng và cung cấp dịch vụ (mã số 10) năm 2022 và năm 2021 lần lượt là bao nhiêu VND?",
+    "expected_answer": "Năm 2022: 59.956.247.197.418 VND; năm 2021: 60.919.164.846.146 VND.",
+    "evidence": [{"page": 109, "region": "Bảng KQKD hợp nhất - mã số 10"}]
+  },
+  {
+    "id": "adv_t05",
+    "split": "test",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2022, Lợi nhuận gộp về bán hàng và cung cấp dịch vụ (mã số 20) và Chi phí bán hàng (mã số 25) là bao nhiêu VND?",
+    "expected_answer": "Lợi nhuận gộp: 23.897.231.506.707 VND; Chi phí bán hàng: 12.548.212.246.871 VND.",
+    "evidence": [{"page": 109, "region": "Bảng KQKD hợp nhất - mã số 20 và 25"}]
+  },
+  {
+    "id": "adv_t06",
+    "split": "test",
+    "category": "Bảng",
+    "answerable": true,
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất, Chi phí lãi vay (mã số 23) năm 2022 và năm 2021 là bao nhiêu VND, và năm 2022 tăng bao nhiêu VND so với năm 2021?",
+    "expected_answer": "Năm 2022: 166.039.091.744 VND; năm 2021: 88.799.090.663 VND; tăng 77.240.001.081 VND.",
+    "evidence": [{"page": 109, "region": "Bảng KQKD hợp nhất - mã số 23"}]
+  },
+  {
+    "id": "adv_t07",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo sơ đồ Mô hình hoạt động của Công ty, Vinamilk nắm giữ tỷ lệ sở hữu qua hai nhánh 9% và 59% tại công ty nào trong nhóm công ty con trong nước?",
+    "expected_answer": "CTCP Giống Bò sữa Mộc Châu (01 trang trại), với 9% từ nhánh Chi nhánh/đơn vị trực thuộc và 59% qua Tổng Công Ty Chăn nuôi Việt Nam - Công ty Cổ phần (68%).",
+    "evidence": [{"page": 17, "region": "Sơ đồ Mô hình hoạt động - nhánh nối 9% và 59%"}]
+  },
+  {
+    "id": "adv_t08",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo sơ đồ Mô hình hoạt động của Công ty, liệt kê đủ 5 công ty con, liên doanh, liên kết nước ngoài của Vinamilk kèm tỷ lệ phần trăm ghi trên sơ đồ.",
+    "expected_answer": "Driftwood Dairy Holdings Corporation (100%), Angkor Dairy Products Co., ltd. (100%), Miraka Limited (16,96%), Lao-Jagro development Xiengkhouang Co., Ltd (87,32%), Del Monte Vinamilk Dairy Philippines Inc. (50%).",
+    "evidence": [{"page": 17, "region": "Cột bên phải sơ đồ Mô hình hoạt động"}]
+  },
+  {
+    "id": "adv_t09",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo sơ đồ Chuỗi giá trị trên trang Mô hình kinh doanh, thượng nguồn và hạ nguồn gồm những khâu nào?",
+    "expected_answer": "Thượng nguồn gồm: Nghiên cứu phát triển, Vùng nguyên liệu, Sản xuất; Hạ nguồn gồm: Phân phối, Marketing và Bán hàng.",
+    "evidence": [{"page": 13, "region": "Sơ đồ Chuỗi giá trị ở nửa dưới trang"}]
+  },
+  {
+    "id": "adv_t10",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo infographic Hoạt động phát triển bền vững năm 2022 (Mục tiêu 06 và 07), tỷ lệ nước thải trong hoạt động sản xuất và chăn nuôi được xử lý đạt chuẩn là bao nhiêu, và có bao nhiêu nhà máy cùng trang trại được lắp đặt hệ thống năng lượng mặt trời?",
+    "expected_answer": "100% nước thải được xử lý đạt chuẩn; có 11 nhà máy và 13 trang trại được lắp đặt hệ thống năng lượng mặt trời.",
+    "evidence": [{"page": 98, "region": "Infographic Mục tiêu 06 và Mục tiêu 07"}]
+  },
+  {
+    "id": "adv_t11",
+    "split": "test",
+    "category": "Ảnh, sơ đồ",
+    "answerable": true,
+    "question": "Theo infographic Kết quả nổi bật, Vinamilk đặt mục tiêu đạt trung hòa carbon vào năm nào và tung mới, tái tung bao nhiêu sản phẩm trong năm?",
+    "expected_answer": "Năm 2050 đạt trung hòa carbon; 20+ sản phẩm tung mới và tái tung trong năm.",
+    "evidence": [{"page": 2, "region": "Infographic Kết quả nổi bật - hàng 3 cột 2 & hàng 5 cột 2"}]
+  },
+  {
+    "id": "adv_t12",
+    "split": "test",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo biểu đồ 'Doanh thu (Tỷ Đồng)' giai đoạn 2018–2022, giá trị doanh thu năm 2018, 2021 và 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Năm 2018: 52.629 tỷ đồng; năm 2021: 61.012 tỷ đồng; năm 2022: 60.075 tỷ đồng.",
+    "evidence": [{"page": 15, "region": "Biểu đồ cột góc trên bên trái"}]
+  },
+  {
+    "id": "adv_t13",
+    "split": "test",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo biểu đồ 'Lợi nhuận sau thuế (Tỷ Đồng)' giai đoạn 2018–2022, năm nào đạt cao nhất và giá trị năm 2022 là bao nhiêu tỷ đồng?",
+    "expected_answer": "Cao nhất năm 2020 đạt 11.236 tỷ đồng; năm 2022 đạt 8.578 tỷ đồng.",
+    "evidence": [{"page": 15, "region": "Biểu đồ cột hàng giữa bên trái"}]
+  },
+  {
+    "id": "adv_t14",
+    "split": "test",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo hai biểu đồ ở hàng dưới cùng trang Tóm tắt thông tin tài chính 2018–2022, EPS (Đồng) năm 2022 và Hệ số chi trả cổ tức (%) dự kiến năm 2022 là bao nhiêu?",
+    "expected_answer": "EPS năm 2022: 3.632 đồng; Hệ số chi trả cổ tức dự kiến năm 2022: 94%.",
+    "evidence": [{"page": 15, "region": "Hai biểu đồ cột hàng dưới cùng"}]
+  },
+  {
+    "id": "adv_t15",
+    "split": "test",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo biểu đồ 'Tăng trưởng giá Vinamilk (VNM) so với VN-INDEX' từ 01/01/2022 đến 31/12/2022, mức thay đổi cuối kỳ của VNM và VN-INDEX lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "VNM: -12%; VN-INDEX: -33%.",
+    "evidence": [{"page": 18, "region": "Biểu đồ đường nửa trên trang"}]
+  },
+  {
+    "id": "adv_t16",
+    "split": "test",
+    "category": "Biểu đồ",
+    "answerable": true,
+    "question": "Theo trang Thông tin cổ phần và cổ đông (cùng biểu đồ biến động giá và khối lượng giao dịch cổ phiếu VNM), giá đóng cửa điều chỉnh cao nhất và thấp nhất năm 2022 là bao nhiêu, và khối lượng giao dịch trung bình ghi trên biểu đồ là bao nhiêu?",
+    "expected_answer": "Cao nhất: 86.700 đồng/cổ phiếu; thấp nhất: 64.500 đồng/cổ phiếu; khối lượng giao dịch trung bình: 2,4 triệu cổ phiếu.",
+    "evidence": [{"page": 18, "region": "Cột thông tin bên trái và biểu đồ nửa dưới trang"}]
+  },
+  {
+    "id": "adv_t17",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Kết hợp biểu đồ EPS (trang 15) và bảng Tóm tắt thông tin tài chính (trang 16), tính mức giảm của EPS (đồng) từ năm 2018 đến năm 2022 và cho biết số lượng cổ phiếu lưu hành bình quân năm 2022.",
+    "expected_answer": "EPS giảm 1.663 đồng (từ 5.295 đồng năm 2018 xuống 3.632 đồng năm 2022); số lượng cổ phiếu lưu hành bình quân năm 2022 là 2.090 triệu cổ phiếu.",
+    "evidence": [{"page": 15, "region": "Biểu đồ EPS"}, {"page": 16, "region": "Hàng Số lượng cổ phiếu lưu hành bình quân"}]
+  },
+  {
+    "id": "adv_t18",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Kết hợp trang Kết quả mang lại năm 2022 (trang 14) và trang Hoạt động phát triển bền vững (trang 98), cho biết tỷ lệ sử dụng năng lượng xanh và sạch trong sản xuất và số nhà máy đang sử dụng hệ thống hơi - năng lượng xanh (Biomass).",
+    "expected_answer": "Tỷ lệ sử dụng năng lượng xanh và sạch đạt 87% (mục 07 trang 98 ghi 86,8% năng lượng xanh, sạch/nhiên liệu); có 09 nhà máy sử dụng hệ thống hơi - năng lượng xanh (Biomass).",
+    "evidence": [{"page": 14, "region": "Mục Thiên nhiên"}, {"page": 98, "region": "Mục tiêu 07"}]
+  },
+  {
+    "id": "adv_t19",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Kết hợp trang Giới thiệu Hội đồng Quản trị (trang 21) và Sơ đồ Mô hình hoạt động (trang 17), ai là Tổng Giám đốc của Vinamilk và 02 xí nghiệp kho vận trong nước đặt tại hai thành phố nào?",
+    "expected_answer": "Tổng Giám đốc là bà Mai Kiều Liên; 02 xí nghiệp kho vận đặt tại Hà Nội và Tp. HCM.",
+    "evidence": [{"page": 21, "region": "Thẻ bà Mai Kiều Liên"}, {"page": 17, "region": "Cột Chi nhánh/đơn vị trực thuộc trong nước"}]
+  },
+  {
+    "id": "adv_t20",
+    "split": "test",
+    "category": "Multi-hop",
+    "answerable": true,
+    "question": "Đối chiếu Báo cáo KQKD hợp nhất năm 2022 (trang 109) và bảng Tóm tắt thông tin tài chính (trang 16), nêu giá trị Doanh thu bán hàng (mã 01) và Doanh thu thuần (mã 10) bằng VND, rồi giải thích vì sao bảng tóm tắt trang 16 ghi Doanh thu là 60.075 tỷ đồng.",
+    "expected_answer": "Mã 01 (Doanh thu bán hàng): 60.074.730.223.299 VND; Mã 10 (Doanh thu thuần): 59.956.247.197.418 VND (sau trừ giảm trừ 118.483.025.881 VND). Bảng tóm tắt trang 16 ghi 60.075 tỷ đồng là tổng doanh thu bán hàng (mã 01) làm tròn đến tỷ đồng.",
+    "evidence": [{"page": 109, "region": "Mã số 01, 02, 10"}, {"page": 16, "region": "Hàng Doanh thu"}]
+  },
+  {
+    "id": "adv_t21",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "Theo Thông điệp của Tổng Giám đốc, trong năm 2022 thị trường nội địa của Vinamilk ghi nhận doanh thu thuần hợp nhất và lợi nhuận gộp là bao nhiêu tỷ đồng?",
+    "expected_answer": "Doanh thu thuần hợp nhất 50.704 tỷ đồng và lợi nhuận gộp 20.556 tỷ đồng.",
+    "evidence": [{"page": 6, "region": "Mục Thị trường nội địa"}]
+  },
+  {
+    "id": "adv_t22",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "Theo trang Kết quả mang lại trong năm 2022 (trang 14), tỷ lệ nước tuần hoàn và tái sử dụng cho trồng trọt và tỷ lệ tái chế phân thải bò lần lượt đạt bao nhiêu phần trăm?",
+    "expected_answer": "Tỷ lệ nước tuần hoàn và tái sử dụng cho trồng trọt đạt 85%; tỷ lệ tái chế phân thải bò đạt 100%.",
+    "evidence": [{"page": 14, "region": "Mục Thiên nhiên"}]
+  },
+  {
+    "id": "adv_t23",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "Theo mục 'Theo khu vực' trên trang Tổng quan ngành sữa Việt Nam năm 2022, xu hướng chuyển dịch người tiêu dùng về nông thôn đến từ nguyên nhân chủ động và bị động nào?",
+    "expected_answer": "Chủ động: một nhóm người tiêu dùng cần môi trường sống bớt ồn ào hơn ở thành thị; Bị động: làn sóng cắt giảm nhân công ở các khu công nghiệp.",
+    "evidence": [{"page": 34, "region": "Khối 'Theo khu vực'"}]
+  },
+  {
+    "id": "adv_t24",
+    "split": "test",
+    "category": "Text",
+    "answerable": true,
+    "question": "Theo kết quả khảo sát về hoạt động Quan hệ cổ đông năm 2022 ở trang 65 (đánh số trang 67), tỷ lệ nhà đầu tư hài lòng với chất lượng sự kiện và hài lòng với chất lượng tài liệu công bố lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "100% hài lòng với chất lượng sự kiện được tổ chức; 96% hài lòng với chất lượng tài liệu được công bố.",
+    "evidence": [{"page": 65, "region": "Khối Kết quả khảo sát quan hệ cổ đông"}]
+  },
+  {
+    "id": "adv_u04",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Số điện thoại cá nhân và địa chỉ email riêng của từng thành viên Hội đồng Quản trị Vinamilk là gì?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Báo cáo thường niên không công bố số điện thoại cá nhân hay email riêng của thành viên HĐQT."
+  },
+  {
+    "id": "adv_u05",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Doanh thu thực tế cả năm 2024 của Vinamilk là bao nhiêu tỷ đồng?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Đây là Báo cáo thường niên năm 2022, không có số liệu thực tế năm 2024."
+  },
+  {
+    "id": "adv_u06",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Ngân sách chi cho hoạt động R&D của Vinamilk dự kiến riêng cho năm 2024 là bao nhiêu tỷ đồng?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Báo cáo năm 2022 không công bố ngân sách R&D cho năm 2024."
+  },
+  {
+    "id": "adv_u07",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Trong năm 2022, Vinamilk đã đóng góp chính xác bao nhiêu tỷ đồng vào Quỹ vắc-xin phòng chống Covid-19 của Chính phủ?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Từ khóa 'vắc-xin' và 'vaccine' xuất hiện 0 lần trong 172 trang."
+  },
+  {
+    "id": "adv_u08",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Giá cổ phiếu VNM mục tiêu mà HĐQT đặt ra cho cuối năm 2025 là bao nhiêu đồng/cổ phiếu?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Báo cáo không đặt mục tiêu giá cổ phiếu cho năm 2025."
+  },
+  {
+    "id": "adv_u09",
+    "split": "test",
+    "category": "Thiếu bằng chứng",
+    "answerable": false,
+    "question": "Tỷ lệ thị phần của Vinamilk riêng tại thị trường châu Âu trong năm 2022 là bao nhiêu phần trăm?",
+    "expected_answer": "Không có thông tin trong tài liệu.",
+    "absence_reason": "Báo cáo không công bố con số thị phần của Vinamilk tại thị trường châu Âu."
+  }
+]

@@ -1,0 +1,858 @@
+[
+  {
+    "query_id": "adv_d01",
+    "split": "dev",
+    "category": "Bảng",
+    "question": "Theo bảng Kết quả nổi bật (trang 2 PDF), tổng đàn bò bình quân đang quản lý và số điểm bán tại Việt Nam của Vinamilk năm 2022 lần lượt là bao nhiêu?",
+    "status": "answered",
+    "answer": "Theo bảng Kết quả nổi bật trên trang 2, tổng đàn bò bình quân đang quản lý của Vinamilk năm 2022 là hơn 146.000 con và số điểm bán tại Việt Nam là 230.000 điểm.",
+    "citations": [
+      {
+        "page": 2,
+        "region": "Bảng Kết quả nổi bật"
+      }
+    ],
+    "viewed_pages": [
+      2
+    ],
+    "events": [
+      {
+        "event": "view_page_image",
+        "page": 2
+      }
+    ],
+    "elapsed_ms": 4760.64,
+    "prompt_tokens": 1978,
+    "completion_tokens": 131,
+    "cost_usd": 0.000921,
+    "error": null
+  },
+  {
+    "query_id": "adv_d02",
+    "split": "dev",
+    "category": "Bảng",
+    "question": "Trên Báo cáo tình hình tài chính hợp nhất tại ngày 31/12/2022, chỉ tiêu Tổng nguồn vốn (mã số 440) là bao nhiêu VND so với ngày 1/1/2022?",
+    "status": "answered",
+    "answer": "Trên Báo cáo tình hình tài chính hợp nhất tại ngày 31/12/2022, chỉ tiêu Tổng nguồn vốn (mã số 440) là 48.482.664.236.220 VND, so với ngày 1/1/2022 là 53.332.403.438.219 VND.",
+    "citations": [
+      {
+        "page": 108,
+        "region": "Bảng Báo cáo tình hình tài chính hợp nhất"
+      }
+    ],
+    "viewed_pages": [
+      108
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Báo cáo tình hình tài chính hợp nhất tại ngày 31/12/2022 Tổng nguồn vốn mã số 440",
+        "pages": [
+          158,
+          138,
+          141,
+          108,
+          159,
+          102,
+          107,
+          163
+        ],
+        "ids": [
+          "ADV_VNM2022_p158_c03",
+          "ADV_VNM2022_p138_c03",
+          "ADV_VNM2022_p141_c04",
+          "ADV_VNM2022_p108_c02",
+          "ADV_VNM2022_p159_c04",
+          "ADV_VNM2022_p102_c01",
+          "ADV_VNM2022_p107_c01",
+          "ADV_VNM2022_p163_c02"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 108
+      }
+    ],
+    "elapsed_ms": 6510.71,
+    "prompt_tokens": 7092,
+    "completion_tokens": 220,
+    "cost_usd": 0.00192,
+    "error": null
+  },
+  {
+    "query_id": "adv_d03",
+    "split": "dev",
+    "category": "Bảng",
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2022, lợi nhuận sau thuế TNDN phân bổ cho Chủ sở hữu của Công ty (mã số 61) và Lợi ích cổ đông không kiểm soát (mã số 62) lần lượt là bao nhiêu VND?",
+    "status": "answered",
+    "answer": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2022 (trang 110), lợi nhuận sau thuế TNDN phân bổ cho:\n- Chủ sở hữu của Công ty (mã số 61) là 8.516.023.694.342 VND.\n- Lợi ích cổ đông không kiểm soát (mã số 62) là 61.551.625.366 VND.",
+    "citations": [
+      {
+        "page": 110,
+        "region": "Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất"
+      }
+    ],
+    "viewed_pages": [
+      110
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2022, lợi nhuận sau thuế TNDN phân bổ cho Chủ sở hữu của Công ty (mã số 61) và Lợi ích cổ đông không kiểm soát (mã số 62)",
+        "pages": [
+          110,
+          165,
+          109,
+          122,
+          109,
+          154,
+          159,
+          159
+        ],
+        "ids": [
+          "ADV_VNM2022_p110_c01",
+          "ADV_VNM2022_p165_vis",
+          "ADV_VNM2022_p109_c04",
+          "ADV_VNM2022_p122_c03",
+          "ADV_VNM2022_p109_vis",
+          "ADV_VNM2022_p154_c01",
+          "ADV_VNM2022_p159_c01",
+          "ADV_VNM2022_p159_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 110
+      }
+    ],
+    "elapsed_ms": 6612.06,
+    "prompt_tokens": 7603,
+    "completion_tokens": 270,
+    "cost_usd": 0.002593,
+    "error": null
+  },
+  {
+    "query_id": "adv_d04",
+    "split": "dev",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo trang Lịch sử phát triển giai đoạn 2013–2018 (kèm ảnh xe tải Driftwood/AngkorMilk), năm 2013 Vinamilk đầu tư nắm giữ bao nhiêu phần trăm cổ phần ban đầu của Driftwood Dairy Holdings Corporation tại California, Hoa Kỳ và tăng lên 100% vào năm nào?",
+    "status": "answered",
+    "answer": "Theo trang 10 của Báo cáo thường niên Vinamilk 2022, năm 2013 Vinamilk đầu tư nắm giữ 70% cổ phần ban đầu của Driftwood Dairy Holdings Corporation tại California, Hoa Kỳ và tăng lên 100% vào năm 2016.",
+    "citations": [
+      {
+        "page": 10,
+        "region": "Văn bản"
+      }
+    ],
+    "viewed_pages": [
+      10
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Lịch sử phát triển giai đoạn 2013–2018 Driftwood Dairy Holdings Corporation",
+        "pages": [
+          17,
+          115,
+          10,
+          115,
+          115,
+          62,
+          44,
+          13
+        ],
+        "ids": [
+          "ADV_VNM2022_p017_c01",
+          "ADV_VNM2022_p115_c03",
+          "ADV_VNM2022_p010_c01",
+          "ADV_VNM2022_p115_c02",
+          "ADV_VNM2022_p115_c05",
+          "ADV_VNM2022_p062_c01",
+          "ADV_VNM2022_p044_c02",
+          "ADV_VNM2022_p013_c01"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 10
+      }
+    ],
+    "elapsed_ms": 6649.94,
+    "prompt_tokens": 6946,
+    "completion_tokens": 168,
+    "cost_usd": 0.001905,
+    "error": null
+  },
+  {
+    "query_id": "adv_d05",
+    "split": "dev",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo Sơ đồ tổ chức và cơ cấu quản lý, Hội đồng Quản trị có mấy ủy ban trực thuộc (nêu tên) và đường nét đứt trong sơ đồ biểu thị loại báo cáo nào?",
+    "status": "answered",
+    "answer": "Theo Sơ đồ tổ chức và cơ cấu quản lý của Vinamilk, Hội đồng Quản trị có 4 ủy ban trực thuộc, bao gồm:\n\n1.  Ủy ban Chiến lược\n2.  Ủy ban Nhân sự\n3.  Ủy ban Lương thưởng\n4.  Ủy ban Kiểm toán\n\nĐường nét đứt trong sơ đồ biểu thị loại báo cáo theo chức năng được quy định.",
+    "citations": [
+      {
+        "page": 20,
+        "region": "Sơ đồ tổ chức và cơ cấu quản lý"
+      }
+    ],
+    "viewed_pages": [
+      20
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Sơ đồ tổ chức và cơ cấu quản lý Hội đồng Quản trị",
+        "pages": [
+          20,
+          35,
+          79,
+          77,
+          21,
+          37,
+          2,
+          38
+        ],
+        "ids": [
+          "ADV_VNM2022_p020_vis",
+          "ADV_VNM2022_p035_c05",
+          "ADV_VNM2022_p079_c01",
+          "ADV_VNM2022_p077_c01",
+          "ADV_VNM2022_p021_vis",
+          "ADV_VNM2022_p037_c01",
+          "ADV_VNM2022_p002_c01",
+          "ADV_VNM2022_p038_c01"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 20
+      }
+    ],
+    "elapsed_ms": 7403.97,
+    "prompt_tokens": 6769,
+    "completion_tokens": 205,
+    "cost_usd": 0.001612,
+    "error": null
+  },
+  {
+    "query_id": "adv_d06",
+    "split": "dev",
+    "category": "Ảnh, sơ đồ",
+    "question": "Theo trang Giới thiệu Hội đồng Quản trị, ông Nguyễn Hạnh Phúc và ông Đỗ Lê Hùng giữ các chức vụ gì tại HĐQT và các ủy ban?",
+    "status": "answered",
+    "answer": "Theo trang 21 của Báo cáo thường niên Vinamilk 2022, ông Nguyễn Hạnh Phúc và ông Đỗ Lê Hùng giữ các chức vụ sau:\n\n*   **Ông Nguyễn Hạnh Phúc:**\n    *   Chủ tịch HĐQT độc lập\n    *   Chủ tịch Ủy ban Nhân sự\n    *   Thành viên Ủy ban Lương thưởng\n\n*   **Ông Đỗ Lê Hùng:**\n    *   Thành viên HĐQT độc lập\n    *   Chủ tịch Ủy ban Kiểm toán",
+    "citations": [
+      {
+        "page": 21,
+        "region": "Ảnh/Sơ đồ"
+      }
+    ],
+    "viewed_pages": [
+      21
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Giới thiệu Hội đồng Quản trị Nguyễn Hạnh Phúc Đỗ Lê Hùng chức vụ",
+        "pages": [
+          101,
+          83,
+          21,
+          101,
+          35,
+          28,
+          82,
+          121
+        ],
+        "ids": [
+          "ADV_VNM2022_p101_c01",
+          "ADV_VNM2022_p083_c04",
+          "ADV_VNM2022_p021_vis",
+          "ADV_VNM2022_p101_c02",
+          "ADV_VNM2022_p035_c05",
+          "ADV_VNM2022_p028_c01",
+          "ADV_VNM2022_p082_c01",
+          "ADV_VNM2022_p121_c03"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 21
+      }
+    ],
+    "elapsed_ms": 6813.7,
+    "prompt_tokens": 6485,
+    "completion_tokens": 229,
+    "cost_usd": 0.001929,
+    "error": null
+  },
+  {
+    "query_id": "adv_d07",
+    "split": "dev",
+    "category": "Biểu đồ",
+    "question": "Theo biểu đồ 'Lợi nhuận trước thuế, lãi vay và khấu hao (Tỷ Đồng)' giai đoạn 2018–2022, năm nào đạt mức cao nhất và năm 2022 đạt bao nhiêu tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo biểu đồ 'Lợi nhuận trước thuế, lãi vay và khấu hao (Tỷ Đồng)' giai đoạn 2018–2022 trên trang 15, năm đạt mức cao nhất là năm 2020 với 15.871 tỷ đồng. Năm 2022, lợi nhuận trước thuế, lãi vay và khấu hao đạt 12.757 tỷ đồng.",
+    "citations": [
+      {
+        "page": 15,
+        "region": "Biểu đồ Lợi nhuận trước thuế, lãi vay và khấu hao (Tỷ Đồng)"
+      }
+    ],
+    "viewed_pages": [
+      15
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "biểu đồ 'Lợi nhuận trước thuế, lãi vay và khấu hao (Tỷ Đồng)' giai đoạn 2018–2022",
+        "pages": [
+          15,
+          159,
+          16,
+          165,
+          157,
+          15,
+          159,
+          155
+        ],
+        "ids": [
+          "ADV_VNM2022_p015_vis",
+          "ADV_VNM2022_p159_vis",
+          "ADV_VNM2022_p016_vis",
+          "ADV_VNM2022_p165_vis",
+          "ADV_VNM2022_p157_vis",
+          "ADV_VNM2022_p015_c01",
+          "ADV_VNM2022_p159_c01",
+          "ADV_VNM2022_p155_vis"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 15
+      }
+    ],
+    "elapsed_ms": 6289.64,
+    "prompt_tokens": 7783,
+    "completion_tokens": 226,
+    "cost_usd": 0.002477,
+    "error": null
+  },
+  {
+    "query_id": "adv_d08",
+    "split": "dev",
+    "category": "Biểu đồ",
+    "question": "Theo biểu đồ 'Tổng tài sản (Tỷ Đồng)' giai đoạn 2018–2022, tổng tài sản năm 2021 và năm 2022 lần lượt là bao nhiêu tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo biểu đồ 'Tổng tài sản (Tỷ Đồng)' giai đoạn 2018–2022 trên trang 15, tổng tài sản năm 2021 là 53.332 tỷ đồng và năm 2022 là 48.483 tỷ đồng.",
+    "citations": [
+      {
+        "page": 15,
+        "region": "Biểu đồ 'Tổng tài sản (Tỷ Đồng)'"
+      }
+    ],
+    "viewed_pages": [
+      15
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "biểu đồ 'Tổng tài sản (Tỷ Đồng)' giai đoạn 2018–2022",
+        "pages": [
+          15,
+          16,
+          151,
+          106,
+          15,
+          126,
+          65,
+          112
+        ],
+        "ids": [
+          "ADV_VNM2022_p015_vis",
+          "ADV_VNM2022_p016_vis",
+          "ADV_VNM2022_p151_vis",
+          "ADV_VNM2022_p106_vis",
+          "ADV_VNM2022_p015_c01",
+          "ADV_VNM2022_p126_c04",
+          "ADV_VNM2022_p065_vis",
+          "ADV_VNM2022_p112_c01"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 15
+      }
+    ],
+    "elapsed_ms": 6432.84,
+    "prompt_tokens": 7873,
+    "completion_tokens": 189,
+    "cost_usd": 0.001867,
+    "error": null
+  },
+  {
+    "query_id": "adv_d09",
+    "split": "dev",
+    "category": "Biểu đồ",
+    "question": "Theo biểu đồ 'Ngân sách nộp Nhà nước (ĐVT nghìn tỷ)', số tiền nộp ngân sách năm 2020 và năm 2022 lần lượt là bao nhiêu nghìn tỷ đồng?",
+    "status": "answered",
+    "answer": "Theo biểu đồ 'Ngân sách nộp Nhà nước (ĐVT nghìn tỷ)' trên trang 65, số tiền nộp ngân sách năm 2020 là 4,9 nghìn tỷ đồng và năm 2022 là 3,8 nghìn tỷ đồng.",
+    "citations": [
+      {
+        "page": 65,
+        "region": "Biểu đồ Ngân sách nộp Nhà nước (ĐVT nghìn tỷ)"
+      }
+    ],
+    "viewed_pages": [
+      65
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "biểu đồ Ngân sách nộp Nhà nước (ĐVT nghìn tỷ)",
+        "pages": [
+          15,
+          65,
+          125,
+          65,
+          106,
+          65,
+          143,
+          149
+        ],
+        "ids": [
+          "ADV_VNM2022_p015_vis",
+          "ADV_VNM2022_p065_c06",
+          "ADV_VNM2022_p125_c04",
+          "ADV_VNM2022_p065_c05",
+          "ADV_VNM2022_p106_vis",
+          "ADV_VNM2022_p065_vis",
+          "ADV_VNM2022_p143_vis",
+          "ADV_VNM2022_p149_c03"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 65
+      }
+    ],
+    "elapsed_ms": 5921.76,
+    "prompt_tokens": 6767,
+    "completion_tokens": 173,
+    "cost_usd": 0.001717,
+    "error": null
+  },
+  {
+    "query_id": "adv_d10",
+    "split": "dev",
+    "category": "Multi-hop",
+    "question": "Đối chiếu bảng Kết quả nổi bật (trang 2) và bảng Tóm tắt thông tin tài chính 2018–2022 (trang 16), giá trị vốn hóa tại ngày 31/12/2022 là bao nhiêu tỷ đồng và giá cổ phiếu năm 2022 tương ứng là bao nhiêu đồng?",
+    "status": "answered",
+    "answer": "Đối chiếu bảng Kết quả nổi bật (trang 2) và bảng Tóm tắt thông tin tài chính 2018–2022 (trang 16):\n\n*   **Vốn hóa tại ngày 31/12/2022:** 159.046 tỷ đồng [trang 2 | Kết quả nổi bật, trang 16 | Bảng Tóm tắt thông tin tài chính 2018-2022].\n*   **Giá cổ phiếu năm 2022:** 76.100 đồng [trang 16 | Bảng Tóm tắt thông tin tài chính 2018-2022].",
+    "citations": [
+      {
+        "page": 2,
+        "region": "Kết quả nổi bật"
+      },
+      {
+        "page": 16,
+        "region": "Bảng Tóm tắt thông tin tài chính 2018-2022"
+      }
+    ],
+    "viewed_pages": [
+      2,
+      16
+    ],
+    "events": [
+      {
+        "event": "view_page_image",
+        "page": 2
+      },
+      {
+        "event": "view_page_image",
+        "page": 16
+      }
+    ],
+    "elapsed_ms": 4602.25,
+    "prompt_tokens": 2364,
+    "completion_tokens": 285,
+    "cost_usd": 0.001019,
+    "error": null
+  },
+  {
+    "query_id": "adv_d11",
+    "split": "dev",
+    "category": "Multi-hop",
+    "question": "Kết hợp trang Mô hình kinh doanh (trang 13) và Sơ đồ tổ chức (trang 20), tại ngày 31/12/2022 toàn tập đoàn có bao nhiêu nhân sự và có bao nhiêu Giám đốc điều hành/Giám đốc chức năng ở phần xanh lá bên dưới Tổng Giám đốc?",
+    "status": "answered",
+    "answer": "Tại ngày 31/12/2022, toàn tập đoàn Vinamilk có 9.506 nhân sự [trang 13 | văn bản].\n\nỞ phần xanh lá bên dưới Tổng Giám đốc trong Sơ đồ tổ chức, có 10 Giám đốc điều hành/Giám đốc chức năng [trang 20 | sơ đồ]. Cụ thể là:\n*   GĐĐH Nhân sự - Hành chính & Đối ngoại\n*   GĐĐH Tài chính\n*   GĐĐH Kinh doanh Quốc tế\n*   GĐĐH Kinh doanh Nội địa\n*   GĐĐH Marketing\n*   GĐĐH Nghiên cứu và Phát triển\n*   GĐĐH Sản xuất\n*   GĐĐH Phát triển Vùng Nguyên liệu\n*   GĐĐH Chuỗi Cung ứng\n*   GĐ Hoạch định Chiến lược\n*   GĐ Công nghệ Thông tin",
+    "citations": [
+      {
+        "page": 13,
+        "region": "văn bản"
+      },
+      {
+        "page": 20,
+        "region": "sơ đồ"
+      }
+    ],
+    "viewed_pages": [
+      20
+    ],
+    "events": [
+      {
+        "event": "get_page_text",
+        "page": 13
+      },
+      {
+        "event": "get_page_text",
+        "page": 20
+      },
+      {
+        "event": "view_page_image",
+        "page": 20
+      }
+    ],
+    "elapsed_ms": 6041.69,
+    "prompt_tokens": 5750,
+    "completion_tokens": 357,
+    "cost_usd": 0.002041,
+    "error": null
+  },
+  {
+    "query_id": "adv_d12",
+    "split": "dev",
+    "category": "Multi-hop",
+    "question": "Trên Báo cáo tài chính hợp nhất năm 2022, Quỹ đầu tư phát triển tại ngày 31/12/2022 (mã số 418) là bao nhiêu VND và Lợi nhuận sau thuế TNDN năm 2022 (mã số 60) là bao nhiêu VND?",
+    "status": "answered",
+    "answer": "Tại ngày 31/12/2022, Quỹ đầu tư phát triển (mã số 418) là 5.266.761.584.973 VND và Lợi nhuận sau thuế TNDN năm 2022 (mã số 60) là 8.577.575.319.708 VND.",
+    "citations": [
+      {
+        "page": 108,
+        "region": "text"
+      },
+      {
+        "page": 110,
+        "region": "Bảng Báo cáo kết quả hoạt động kinh doanh hợp nhất"
+      }
+    ],
+    "viewed_pages": [
+      110
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Báo cáo tài chính hợp nhất năm 2022, Quỹ đầu tư phát triển tại ngày 31/12/2022 (mã số 418) và Lợi nhuận sau thuế TNDN năm 2022 (mã số 60)",
+        "pages": [
+          158,
+          110,
+          152,
+          156,
+          138,
+          135,
+          109,
+          149
+        ],
+        "ids": [
+          "ADV_VNM2022_p158_c03",
+          "ADV_VNM2022_p110_c01",
+          "ADV_VNM2022_p152_c04",
+          "ADV_VNM2022_p156_c03",
+          "ADV_VNM2022_p138_c03",
+          "ADV_VNM2022_p135_c03",
+          "ADV_VNM2022_p109_vis",
+          "ADV_VNM2022_p149_c03"
+        ]
+      },
+      {
+        "event": "view_page_image",
+        "page": 110
+      },
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Quỹ đầu tư phát triển mã số 418",
+        "pages": [
+          108,
+          115,
+          132,
+          142,
+          151,
+          125,
+          148,
+          135
+        ],
+        "ids": [
+          "ADV_VNM2022_p108_c01",
+          "ADV_VNM2022_p115_c02",
+          "ADV_VNM2022_p132_c04",
+          "ADV_VNM2022_p142_c03",
+          "ADV_VNM2022_p151_c01",
+          "ADV_VNM2022_p125_c01",
+          "ADV_VNM2022_p148_c02",
+          "ADV_VNM2022_p135_c03"
+        ]
+      }
+    ],
+    "elapsed_ms": 7436.43,
+    "prompt_tokens": 8792,
+    "completion_tokens": 300,
+    "cost_usd": 0.002761,
+    "error": null
+  },
+  {
+    "query_id": "adv_d13",
+    "split": "dev",
+    "category": "Text",
+    "question": "Theo Thông điệp của Chủ tịch Hội đồng Quản trị, giá trị thương hiệu Vinamilk năm 2022 được định giá bao nhiêu và tăng bao nhiêu phần trăm so với cùng kỳ theo Brand Finance?",
+    "status": "answered",
+    "answer": "Theo Thông điệp của Chủ tịch Hội đồng Quản trị, giá trị thương hiệu Vinamilk năm 2022 được định giá 2,8 tỷ Đô la Mỹ, tăng 18% so với cùng kỳ. [trang 5 | text]",
+    "citations": [
+      {
+        "page": 5,
+        "region": "text"
+      }
+    ],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Thông điệp của Chủ tịch Hội đồng Quản trị giá trị thương hiệu Vinamilk năm 2022 Brand Finance",
+        "pages": [
+          69,
+          98,
+          63,
+          98,
+          5,
+          65,
+          69,
+          92
+        ],
+        "ids": [
+          "ADV_VNM2022_p069_c01",
+          "ADV_VNM2022_p098_c06",
+          "ADV_VNM2022_p063_c02",
+          "ADV_VNM2022_p098_c05",
+          "ADV_VNM2022_p005_c03",
+          "ADV_VNM2022_p065_c06",
+          "ADV_VNM2022_p069_vis",
+          "ADV_VNM2022_p092_c03"
+        ]
+      }
+    ],
+    "elapsed_ms": 3207.65,
+    "prompt_tokens": 3600,
+    "completion_tokens": 97,
+    "cost_usd": 0.000897,
+    "error": null
+  },
+  {
+    "query_id": "adv_d14",
+    "split": "dev",
+    "category": "Text",
+    "question": "Theo mục 'Theo độ tuổi' trên trang Tổng quan ngành sữa Việt Nam năm 2022, người tiêu dùng thế hệ X (45–60 tuổi), thế hệ Y (25–44 tuổi) và thế hệ Z (13–24 tuổi) ưu tiên nhu cầu gì?",
+    "status": "answered",
+    "answer": "Theo mục 'Theo độ tuổi' trên trang Tổng quan ngành sữa Việt Nam năm 2022, người tiêu dùng thuộc thế hệ X (45-60 tuổi) ưu tiên sản phẩm giúp nâng cao sức khỏe và sức đề kháng. Thế hệ Y (25-44 tuổi) quan tâm đến thải độc và làm đẹp da. Trong khi đó, thế hệ Z (13-24 tuổi) có nhu cầu tăng cường tiêu hóa và cải thiện vóc dáng. [trang 34 | text]",
+    "citations": [
+      {
+        "page": 34,
+        "region": "text"
+      }
+    ],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Tổng quan ngành sữa Việt Nam năm 2022 theo độ tuổi",
+        "pages": [
+          12,
+          34,
+          34,
+          98,
+          34,
+          73,
+          74,
+          34
+        ],
+        "ids": [
+          "ADV_VNM2022_p012_c01",
+          "ADV_VNM2022_p034_c05",
+          "ADV_VNM2022_p034_c02",
+          "ADV_VNM2022_p098_c05",
+          "ADV_VNM2022_p034_c03",
+          "ADV_VNM2022_p073_c01",
+          "ADV_VNM2022_p074_c01",
+          "ADV_VNM2022_p034_c01"
+        ]
+      },
+      {
+        "event": "get_page_text",
+        "page": 34
+      }
+    ],
+    "elapsed_ms": 5102.23,
+    "prompt_tokens": 8164,
+    "completion_tokens": 206,
+    "cost_usd": 0.002536,
+    "error": null
+  },
+  {
+    "query_id": "adv_d15",
+    "split": "dev",
+    "category": "Text",
+    "question": "Theo phần chuyển đổi số Khối Tài chính ở trang 65 (đánh số trang 67), Khối Tài chính đã triển khai hệ thống quản lý ngân sách nào và hoàn thành hệ thống hóa đơn điện tử trước thời hạn bắt buộc theo Thông tư 78 vào ngày nào?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về hệ thống quản lý ngân sách nào đã được Khối Tài chính triển khai và ngày hoàn thành hệ thống hóa đơn điện tử trước thời hạn bắt buộc theo Thông tư 78 trên trang 65 (đánh số trang 67).",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "get_page_text",
+        "page": 67
+      }
+    ],
+    "elapsed_ms": 2512.5,
+    "prompt_tokens": 2660,
+    "completion_tokens": 83,
+    "cost_usd": 0.000594,
+    "error": null
+  },
+  {
+    "query_id": "adv_u01",
+    "split": "dev",
+    "category": "Thiếu bằng chứng",
+    "question": "Kế hoạch doanh thu hợp nhất và lợi nhuận sau thuế mục tiêu cụ thể của Vinamilk cho năm 2025 là bao nhiêu tỷ đồng?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về kế hoạch doanh thu hợp nhất và lợi nhuận sau thuế mục tiêu cụ thể của Vinamilk cho năm 2025. Các trang tìm được chỉ hiển thị kết quả kinh doanh năm 2021, 2022 và dự báo cho năm 2023.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Kế hoạch doanh thu hợp nhất và lợi nhuận sau thuế mục tiêu cụ thể của Vinamilk cho năm 2025",
+        "pages": [
+          165,
+          157,
+          166,
+          109,
+          6,
+          159,
+          110,
+          92
+        ],
+        "ids": [
+          "ADV_VNM2022_p165_vis",
+          "ADV_VNM2022_p157_vis",
+          "ADV_VNM2022_p166_vis",
+          "ADV_VNM2022_p109_vis",
+          "ADV_VNM2022_p006_c03",
+          "ADV_VNM2022_p159_vis",
+          "ADV_VNM2022_p110_vis",
+          "ADV_VNM2022_p092_c03"
+        ]
+      }
+    ],
+    "elapsed_ms": 3573.02,
+    "prompt_tokens": 3667,
+    "completion_tokens": 116,
+    "cost_usd": 0.001149,
+    "error": null
+  },
+  {
+    "query_id": "adv_u02",
+    "split": "dev",
+    "category": "Thiếu bằng chứng",
+    "question": "Giá bán lẻ niêm yết của một hộp sữa tươi Vinamilk 100% dung tích 1 lít tại siêu thị năm 2022 là bao nhiêu đồng?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về giá bán lẻ niêm yết của một hộp sữa tươi Vinamilk 100% dung tích 1 lít tại siêu thị năm 2022.",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Giá bán lẻ niêm yết của một hộp sữa tươi Vinamilk 100% dung tích 1 lít tại siêu thị năm 2022",
+        "pages": [
+          53,
+          7,
+          5,
+          50,
+          5,
+          12,
+          2,
+          137
+        ],
+        "ids": [
+          "ADV_VNM2022_p053_c03",
+          "ADV_VNM2022_p007_c05",
+          "ADV_VNM2022_p005_c04",
+          "ADV_VNM2022_p050_vis",
+          "ADV_VNM2022_p005_c03",
+          "ADV_VNM2022_p012_vis",
+          "ADV_VNM2022_p002_c03",
+          "ADV_VNM2022_p137_c01"
+        ]
+      }
+    ],
+    "elapsed_ms": 3456.61,
+    "prompt_tokens": 3412,
+    "completion_tokens": 98,
+    "cost_usd": 0.000846,
+    "error": null
+  },
+  {
+    "query_id": "adv_u03",
+    "split": "dev",
+    "category": "Thiếu bằng chứng",
+    "question": "Vinamilk nắm giữ bao nhiêu phần trăm cổ phần tại công ty TH True Milk hoặc Nutifood trong năm 2022?",
+    "status": "abstain",
+    "answer": "Tài liệu không đề cập / không cung cấp thông tin về việc Vinamilk nắm giữ cổ phần tại công ty TH True Milk hoặc Nutifood trong năm 2022.\n\nVinamilk có đầu tư vào một số công ty khác như:\n*   Công ty TNHH Bò sữa Thống Nhất Thanh Hóa (100% cổ phần)\n*   Driftwood Dairy Holdings Corporation tại California, Hoa Kỳ (100% cổ phần)\n*   CTCP Đường Việt Nam (65% cổ phần)\n*   CTCP Chế Biến Dừa Á Châu (25% cổ phần)\n*   Lao-Jagro Development Xiengkhouang Co., Ltd. Tại Lào (51% cổ phần)\n*   Công ty AngkorMilk tại Campuchia (100% cổ phần)\n*   CTCP APIS (20% cổ phần)\n*   Công ty Cổ phần Giống Bò sữa Mộc Châu (tăng từ 28,61% lên 47,12% vào năm 2021)\n*   Công ty TNHH Liên doanh Thực phẩm và Đồ uống Vibev (51% vốn)\n\n[trang 10, 17, 31, 116]",
+    "citations": [],
+    "viewed_pages": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_hybrid",
+        "query": "Vinamilk nắm giữ bao nhiêu phần trăm cổ phần tại công ty TH True Milk hoặc Nutifood trong năm 2022?",
+        "pages": [
+          10,
+          31,
+          5,
+          10,
+          92,
+          17,
+          116,
+          125
+        ],
+        "ids": [
+          "ADV_VNM2022_p010_c01",
+          "ADV_VNM2022_p031_c05",
+          "ADV_VNM2022_p005_c04",
+          "ADV_VNM2022_p010_c02",
+          "ADV_VNM2022_p092_c03",
+          "ADV_VNM2022_p017_vis",
+          "ADV_VNM2022_p116_c05",
+          "ADV_VNM2022_p125_c04"
+        ]
+      }
+    ],
+    "elapsed_ms": 4193.82,
+    "prompt_tokens": 3541,
+    "completion_tokens": 329,
+    "cost_usd": 0.001645,
+    "error": null
+  }
+]

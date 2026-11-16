@@ -1,0 +1,13 @@
+{
+  "document": "Vinamilk Annual Report 2022 (vinamilk_ar_2022.pdf)",
+  "total_pages": 172,
+  "total_chunks": 819,
+  "text_chunks": 647,
+  "visual_chunks": 172,
+  "visual_pages_targeted": 172,
+  "vision_errors": [],
+  "vision_cost_usd": 0.0899,
+  "elapsed_sec": 1793.76,
+  "strategy": "ADV_VNM2022",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+}
