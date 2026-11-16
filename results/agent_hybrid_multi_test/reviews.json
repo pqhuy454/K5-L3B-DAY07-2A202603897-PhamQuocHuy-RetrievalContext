@@ -1,0 +1,44 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đáp án đúng 'sự cố an ninh mạng', trích dẫn p03_c02 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đáp án đúng 'giám sát an ninh mạng', trích dẫn p12_c03 hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [false],
+    "answer_grade": 2,
+    "notes": "Trả lời đúng '30 ngày' và context có p24_c01, nhưng citation ghi p11_c05 (Điều 13 cho hệ thống quan trọng) thay vì p24_c01 (hệ thống không thuộc Danh mục)."
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [true, true],
+    "answer_grade": 2,
+    "notes": "Đáp án đúng khoản 1 Điều 16; p30_c03 và p14_c01 đều hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [true, true],
+    "answer_grade": 2,
+    "notes": "Gọi 3 lượt search gom đủ p32_c02 và p32_c03; trả lời và citation đúng, đủ."
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối đúng sau 3 lượt search; không suy diễn."
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối đúng sau 3 lượt search; không suy diễn."
+  }
+]

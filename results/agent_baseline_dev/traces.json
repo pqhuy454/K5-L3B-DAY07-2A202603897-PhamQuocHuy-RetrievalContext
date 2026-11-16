@@ -1,0 +1,663 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Theo giải thích từ ngữ, không gian mạng quốc gia do cơ quan nào xác lập, quản lý và kiểm soát?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "không gian mạng quốc gia xác lập quản lý kiểm soát",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p01_c03",
+          "B_luat-an-ninh-mang-2018_p01_c04",
+          "B_luat-an-ninh-mang-2018_p05_c03"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p01_c03",
+          "B_luat-an-ninh-mang-2018_p01_c04"
+        ],
+        "elapsed_ms": 0.55
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p01_c03",
+      "B_luat-an-ninh-mang-2018_p01_c04"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p01_c03 | starter/data/24-2018-qh14.pdf | page 1]\n3. Không gian mạng là mạng lưới kết nối của cơ sở hạ tầng công nghệ thông tin, bao gồm mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu; là nơi con người thực hiện các hành vi xã hội không bị giới hạn bởi không gian và thời gian. 4. Không gian mạng quốc gia là không gian mạng do Chính phủ xác lập, quản lý và kiểm soát.\n\n[B_luat-an-ninh-mang-2018_p01_c04 | starter/data/24-2018-qh14.pdf | page 1]\n5. Cơ sở hạ tầng không gian mạng quốc gia là hệ thống cơ sở vật chất, kỹ thuật để tạo lập, truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin trên không gian mạng quốc gia, bao gồm:",
+    "context_chars": 735,
+    "answer": "Không gian mạng quốc gia do Chính phủ xác lập, quản lý và kiểm soát.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p01_c03"
+    ],
+    "elapsed_ms": 6497.91,
+    "prompt_tokens": 1123,
+    "completion_tokens": 81,
+    "cost_usd": 0.000217,
+    "error": null
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Hành vi cố tình vượt qua tường lửa, mật mã hoặc dùng quyền quản trị của người khác để chiếm đoạt, thu thập trái phép thông tin trên mạng được gọi là gì?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "hành vi cố tình vượt qua tường lửa, mật mã hoặc dùng quyền quản trị của người khác để chiếm đoạt, thu thập trái phép thông tin",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p02_c06",
+          "B_luat-an-ninh-mang-2018_p25_c01",
+          "B_luat-an-ninh-mang-2018_p17_c01"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p02_c06"
+        ],
+        "elapsed_ms": 2.54
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p02_c06"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p02_c06 | starter/data/24-2018-qh14.pdf | page 2]\n10. Gián điệp mạng là hành vi cố ý vượt qua cảnh báo, mã truy cập, mật mã, tường lửa, sử dụng quyền quản trị của người khác hoặc bằng phương thức khác để chiếm đoạt, thu thập trái phép thông tin, tài nguyên thông tin trên mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử của cơ quan, tổ chức, cá nhân.",
+    "context_chars": 470,
+    "answer": "Hành vi cố tình vượt qua tường lửa, mật mã hoặc dùng quyền quản trị của người khác để chiếm đoạt, thu thập trái phép thông tin trên mạng được gọi là 'gián điệp mạng'.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p02_c06"
+    ],
+    "elapsed_ms": 26312.32,
+    "prompt_tokens": 1093,
+    "completion_tokens": 133,
+    "cost_usd": 0.000244,
+    "error": null
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Chính phủ quy định trình tự, thủ tục áp dụng các biện pháp bảo vệ an ninh mạng, ngoại trừ những biện pháp nào tại khoản 1 Điều 5?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "Điều 5 biện pháp bảo vệ an ninh mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p04_c03",
+          "B_luat-an-ninh-mang-2018_p05_c03",
+          "B_luat-an-ninh-mang-2018_p03_c05"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p04_c03"
+        ],
+        "elapsed_ms": 0.52
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p04_c03"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p04_c03 | starter/data/24-2018-qh14.pdf | page 4]\n6. Hệ thống thông tin quan trọng về an ninh quốc gia được thẩm định, chứng nhận đủ điều kiện về an ninh mạng trước khi đưa vào vận hành, sử dụng; thường xuyên kiểm tra, giám sát về an ninh mạng trong quá trình sử dụng và kịp thời ứng phó, khắc phục sự cố an ninh mạng. 7. Mọi hành vi vi phạm pháp luật về an ninh mạng phải được xử lý kịp thời, nghiêm minh. Điều 5. Biện pháp bảo vệ an ninh mạng 1. Biện pháp bảo vệ an ninh mạng bao gồm: a) Thẩm định an ninh mạng; b) Đánh giá điều kiện an ninh mạng;",
+    "context_chars": 575,
+    "answer": "Theo khoản 1 Điều 5 Luật An ninh mạng 2018, các biện pháp bảo vệ an ninh mạng bao gồm: thẩm định an ninh mạng và đánh giá điều kiện an ninh mạng. Chính phủ quy định trình tự, thủ tục áp dụng các biện pháp bảo vệ an ninh mạng, ngoại trừ các biện pháp này.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p04_c03"
+    ],
+    "elapsed_ms": 23738.26,
+    "prompt_tokens": 1852,
+    "completion_tokens": 161,
+    "cost_usd": 0.000374,
+    "error": null
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Khi các Bộ, ngành khác hoặc địa phương muốn triển khai hoạt động hợp tác quốc tế về an ninh mạng (không thuộc phạm vi Bộ Quốc phòng) thì phải đáp ứng điều kiện gì trước khi thực hiện?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "hợp tác quốc tế về an ninh mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p06_c02",
+          "B_luat-an-ninh-mang-2018_p06_c01",
+          "B_luat-an-ninh-mang-2018_p05_c04"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p06_c02"
+        ],
+        "elapsed_ms": 0.99
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p06_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p06_c02 | starter/data/24-2018-qh14.pdf | page 6]\n3. Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực hiện hợp tác quốc tế về an ninh mạng, trừ hoạt động hợp tác quốc tế của Bộ Quốc phòng. Bộ Quốc phòng chịu trách nhiệm trước Chính phủ thực hiện hợp tác quốc tế về an ninh mạng trong phạm vi quản lý. Bộ Ngoại giao có trách nhiệm phối hợp với Bộ Công an, Bộ Quốc phòng trong hoạt động hợp tác quốc tế về an ninh mạng. Trường hợp hợp tác quốc tế về an ninh mạng có liên quan đến trách nhiệm của",
+    "context_chars": 537,
+    "answer": "Các Bộ, ngành khác hoặc địa phương muốn triển khai hoạt động hợp tác quốc tế về an ninh mạng phải phối hợp với Bộ Công an, vì Bộ Công an chịu trách nhiệm trước Chính phủ chủ trì, phối hợp thực hiện hợp tác quốc tế về an ninh mạng, trừ hoạt động hợp tác quốc tế của Bộ Quốc phòng. [B_luat-an-ninh-mang-2018_p06_c02]",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p06_c02"
+    ],
+    "elapsed_ms": 5087.51,
+    "prompt_tokens": 1793,
+    "completion_tokens": 173,
+    "cost_usd": 0.000373,
+    "error": null
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Ai có thẩm quyền ban hành và sửa đổi, bổ sung Danh mục hệ thống thông tin quan trọng về an ninh quốc gia?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "thẩm quyền ban hành và sửa đổi, bổ sung Danh mục hệ thống thông tin quan trọng về an ninh quốc gia",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p08_c02",
+          "B_luat-an-ninh-mang-2018_p32_c04",
+          "B_luat-an-ninh-mang-2018_p23_c02"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p08_c02"
+        ],
+        "elapsed_ms": 2.06
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p08_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p08_c02 | starter/data/24-2018-qh14.pdf | page 8]\ng) Hệ thống thông tin quốc gia thuộc lĩnh vực năng lượng, tài chính, ngân hàng, viễn thông, giao thông vận tải, tài nguyên và môi trường, hóa chất, y tế, văn hóa, báo chí; h) Hệ thống điều khiển và giám sát tự động tại công trình quan trọng liên quan đến an ninh quốc gia, mục tiêu quan trọng về an ninh quốc gia. 3. Thủ tướng Chính phủ ban hành và sửa đổi, bổ sung Danh mục hệ thống thông tin quan trọng về an ninh quốc gia.",
+    "context_chars": 501,
+    "answer": "Thủ tướng Chính phủ có thẩm quyền ban hành và sửa đổi, bổ sung Danh mục hệ thống thông tin quan trọng về an ninh quốc gia. [B_luat-an-ninh-mang-2018_p08_c02]",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p08_c02"
+    ],
+    "elapsed_ms": 26013.05,
+    "prompt_tokens": 1070,
+    "completion_tokens": 127,
+    "cost_usd": 0.000237,
+    "error": null
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Trong quy định về hệ thống thông tin quan trọng về an ninh quốc gia, cơ quan nào có thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "thẩm định an ninh mạng hệ thống thông tin cơ yếu Ban Cơ yếu Chính phủ",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p09_c02",
+          "B_luat-an-ninh-mang-2018_p12_c01",
+          "B_luat-an-ninh-mang-2018_p30_c05"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p09_c02"
+        ],
+        "elapsed_ms": 0.55
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p09_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p09_c02 | starter/data/24-2018-qh14.pdf | page 9]\na) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an thẩm định an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia, trừ trường hợp quy định tại điểm b và điểm c khoản này; b) Lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Quốc phòng thẩm định an ninh mạng đối với hệ thống thông tin quân sự; c) Ban Cơ yếu Chính phủ thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ.",
+    "context_chars": 510,
+    "answer": "Ban Cơ yếu Chính phủ có thẩm quyền thẩm định an ninh mạng đối với hệ thống thông tin cơ yếu thuộc Ban Cơ yếu Chính phủ. [B_luat-an-ninh-mang-2018_p09_c02]",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p09_c02"
+    ],
+    "elapsed_ms": 3759.49,
+    "prompt_tokens": 1097,
+    "completion_tokens": 119,
+    "cost_usd": 0.000236,
+    "error": null
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Khi kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia, lực lượng chuyên trách phải thông báo bằng văn bản cho chủ quản hệ thống thông tin trước ít nhất bao nhiêu giờ?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "kiểm tra an ninh mạng đột xuất hệ thống thông tin quan trọng an ninh quốc gia thông báo bằng văn bản",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p11_c03",
+          "B_luat-an-ninh-mang-2018_p12_c02",
+          "B_luat-an-ninh-mang-2018_p11_c02"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p11_c03",
+          "B_luat-an-ninh-mang-2018_p12_c02"
+        ],
+        "elapsed_ms": 2.08
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p11_c03",
+      "B_luat-an-ninh-mang-2018_p12_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p11_c03 | starter/data/24-2018-qh14.pdf | page 11]\n5. Kiểm tra an ninh mạng đột xuất đối với hệ thống thông tin quan trọng về an ninh quốc gia được quy định như sau:\n\n[B_luat-an-ninh-mang-2018_p12_c02 | starter/data/24-2018-qh14.pdf | page 12]\nd) Chủ quản hệ thống thông tin quan trọng về an ninh quốc gia có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng tiến hành kiểm tra an ninh mạng đột xuất. 6. Kết quả kiểm tra an ninh mạng được bảo mật theo quy định của pháp luật. Điều 14. Giám sát an ninh mạng đối với hệ thống thông tin quan trọng về an ninh quốc gia",
+    "context_chars": 608,
+    "answer": "Thiếu thông tin cụ thể về thời gian thông báo trước khi kiểm tra an ninh mạng đột xuất.",
+    "citations": [],
+    "elapsed_ms": 4828.01,
+    "prompt_tokens": 1919,
+    "completion_tokens": 112,
+    "cost_usd": 0.000355,
+    "error": null
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Các thông tin bịa đặt, sai sự thật trong lĩnh vực tài chính, ngân hàng, thương mại điện tử, kinh doanh đa cấp, chứng khoán được xếp vào nhóm thông tin vi phạm nào trên không gian mạng?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "thông tin bịa đặt sai sự thật tài chính ngân hàng thương mại điện tử kinh doanh đa cấp chứng khoán",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p14_c04",
+          "B_luat-an-ninh-mang-2018_p02_c03",
+          "B_luat-an-ninh-mang-2018_p15_c01"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p14_c04"
+        ],
+        "elapsed_ms": 2.12
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p14_c04"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p14_c04 | starter/data/24-2018-qh14.pdf | page 14]\n4. Thông tin trên không gian mạng có nội dung xâm phạm trật tự quản lý kinh tế bao gồm: a) Thông tin bịa đặt, sai sự thật về sản phẩm, hàng hóa, tiền, trái phiếu, tín phiếu, công trái, séc và các loại giấy tờ có giá khác; b) Thông tin bịa đặt, sai sự thật trong lĩnh vực tài chính, ngân hàng, thương mại điện tử, thanh toán điện tử, kinh doanh tiền tệ, huy động vốn, kinh doanh đa cấp, chứng khoán.",
+    "context_chars": 475,
+    "answer": "Các thông tin bịa đặt, sai sự thật trong lĩnh vực tài chính, ngân hàng, thương mại điện tử, kinh doanh đa cấp, chứng khoán được xếp vào nhóm thông tin vi phạm trật tự quản lý kinh tế trên không gian mạng. [B_luat-an-ninh-mang-2018_p14_c04]",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p14_c04"
+    ],
+    "elapsed_ms": 5002.42,
+    "prompt_tokens": 1103,
+    "completion_tokens": 144,
+    "cost_usd": 0.000252,
+    "error": null
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Tổ chức, cá nhân soạn thảo, đăng tải, phát tán thông tin vi phạm quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 trên không gian mạng có nghĩa vụ gì khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "Điều 16 Luật An ninh mạng 2018",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p01_c01",
+          "B_luat-an-ninh-mang-2018_p28_c01",
+          "B_luat-an-ninh-mang-2018_p04_c03"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p01_c01"
+        ],
+        "elapsed_ms": 1.31
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p01_c01"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p01_c01 | starter/data/24-2018-qh14.pdf | page 1]\nQUỐC HỘI Luật số: 24/2018/QH14 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc LUẬT AN NINH MẠNG Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; Quốc hội ban hành Luật An ninh mạng. Chương I NHỮNG QUY ĐỊNH CHUNG Điều 1. Phạm vi điều chỉnh Luật này quy định về hoạt động bảo vệ an ninh quốc gia và bảo đảm trật tự, an toàn xã hội trên không gian mạng; trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan.",
+    "context_chars": 507,
+    "answer": "Thiếu thông tin cụ thể về nghĩa vụ của tổ chức, cá nhân khi có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng trong Luật An ninh mạng 2018.",
+    "citations": [],
+    "elapsed_ms": 6641.59,
+    "prompt_tokens": 1959,
+    "completion_tokens": 127,
+    "cost_usd": 0.00037,
+    "error": null
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Việc sản xuất, mua bán, trao đổi hoặc tặng cho công cụ, thiết bị, phần mềm có tính năng tấn công mạng để dùng vào mục đích trái pháp luật thuộc nhóm hành vi nào?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "sản xuất, mua bán, trao đổi hoặc tặng cho công cụ, thiết bị, phần mềm có tính năng tấn công mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p18_c05",
+          "B_luat-an-ninh-mang-2018_p25_c05",
+          "B_luat-an-ninh-mang-2018_p07_c02"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p18_c05"
+        ],
+        "elapsed_ms": 2.16
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p18_c05"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p18_c05 | starter/data/24-2018-qh14.pdf | page 18]\nđ) Sản xuất, mua bán, trao đổi, tặng cho công cụ, thiết bị, phần mềm có tính năng tấn công mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử để sử dụng vào mục đích trái pháp luật; e) Hành vi khác gây ảnh hưởng đến hoạt động bình thường của mạng viễn thông, mạng Internet, mạng máy tính, hệ thống thông tin, hệ thống xử lý và điều khiển thông tin, cơ sở dữ liệu, phương tiện điện tử.",
+    "context_chars": 552,
+    "answer": "Việc sản xuất, mua bán, trao đổi hoặc tặng cho công cụ, thiết bị, phần mềm có tính năng tấn công mạng để dùng vào mục đích trái pháp luật thuộc nhóm hành vi bị cấm theo Luật An ninh mạng 2018, cụ thể là hành vi vi phạm quy định tại Điều 5, khoản 1, điểm đ [B_luat-an-ninh-mang-2018_p18_c05].",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p18_c05"
+    ],
+    "elapsed_ms": 8396.17,
+    "prompt_tokens": 1112,
+    "completion_tokens": 172,
+    "cost_usd": 0.00027,
+    "error": null
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Doanh nghiệp viễn thông, Internet, công nghệ thông tin có trách nhiệm phối hợp với lực lượng chuyên trách thuộc Bộ nào trong việc phòng ngừa, phát hiện, xử lý tình huống nguy hiểm về an ninh mạng?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "doanh nghiệp viễn thông Internet công nghệ thông tin phối hợp Bộ an ninh mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p20_c05",
+          "B_luat-an-ninh-mang-2018_p26_c05",
+          "B_luat-an-ninh-mang-2018_p30_c04"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p20_c05",
+          "B_luat-an-ninh-mang-2018_p26_c05"
+        ],
+        "elapsed_ms": 1.76
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p20_c05",
+      "B_luat-an-ninh-mang-2018_p26_c05"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p20_c05 | starter/data/24-2018-qh14.pdf | page 20]\nb) Doanh nghiệp viễn thông, Internet, công nghệ thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng và cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an trong phòng ngừa, phát hiện, xử lý tình huống nguy hiểm về an ninh mạng.\n\n[B_luat-an-ninh-mang-2018_p26_c05 | starter/data/24-2018-qh14.pdf | page 26]\n2. Chủ quản hệ thống thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng có trách nhiệm",
+    "context_chars": 681,
+    "answer": "Doanh nghiệp viễn thông, Internet, công nghệ thông tin có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an trong việc phòng ngừa, phát hiện, xử lý tình huống nguy hiểm về an ninh mạng.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p20_c05"
+    ],
+    "elapsed_ms": 9953.34,
+    "prompt_tokens": 1141,
+    "completion_tokens": 123,
+    "cost_usd": 0.000245,
+    "error": null
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Ai có thẩm quyền xem xét, quyết định hoặc ủy quyền xử lý tình huống nguy hiểm về an ninh mạng trong phạm vi cả nước, từng địa phương hoặc đối với hệ thống thông tin quân sự?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "thẩm quyền xử lý tình huống nguy hiểm về an ninh mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p20_c04",
+          "B_luat-an-ninh-mang-2018_p21_c01",
+          "B_luat-an-ninh-mang-2018_p21_c02"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p20_c04"
+        ],
+        "elapsed_ms": 1.66
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p20_c04"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p20_c04 | starter/data/24-2018-qh14.pdf | page 20]\n2. Trách nhiệm phòng ngừa tình huống nguy hiểm về an ninh mạng được quy định như sau: a) Lực lượng chuyên trách bảo vệ an ninh mạng phối hợp với chủ quản hệ thống thông tin quan trọng về an ninh quốc gia triển khai các giải pháp kỹ thuật, nghiệp vụ để phòng ngừa, phát hiện, xử lý tình huống nguy hiểm về an ninh mạng;",
+    "context_chars": 395,
+    "answer": "Thiếu thông tin cụ thể về thẩm quyền xem xét, quyết định hoặc ủy quyền xử lý tình huống nguy hiểm về an ninh mạng trong phạm vi cả nước, từng địa phương hoặc đối với hệ thống thông tin quân sự.",
+    "citations": [],
+    "elapsed_ms": 5288.66,
+    "prompt_tokens": 1139,
+    "completion_tokens": 143,
+    "cost_usd": 0.000257,
+    "error": null
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia, việc kiểm tra an ninh mạng được tiến hành trong những trường hợp nào?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "kiểm tra an ninh mạng hệ thống thông tin không thuộc danh mục quan trọng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p23_c02",
+          "B_luat-an-ninh-mang-2018_p23_c03",
+          "B_luat-an-ninh-mang-2018_p12_c02"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p23_c02"
+        ],
+        "elapsed_ms": 0.88
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p23_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p23_c02 | starter/data/24-2018-qh14.pdf | page 23]\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng. 2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý. Điều 24. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia",
+    "context_chars": 486,
+    "answer": "Việc kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia được tiến hành trong các trường hợp như phòng, chống hành vi vi phạm pháp luật về an ninh mạng và ứng phó, khắc phục sự cố an ninh mạng. [B_luat-an-ninh-mang-2018_p23_c02]",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p23_c02"
+    ],
+    "elapsed_ms": 32446.72,
+    "prompt_tokens": 1803,
+    "completion_tokens": 181,
+    "cost_usd": 0.000379,
+    "error": null
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, Internet phải ngăn chặn việc chia sẻ và xóa bỏ thông tin vi phạm quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 chậm nhất trong thời gian bao lâu kể từ khi có yêu cầu?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "ngăn chặn việc chia sẻ và xóa bỏ thông tin vi phạm quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p25_c02",
+          "B_luat-an-ninh-mang-2018_p15_c03",
+          "B_luat-an-ninh-mang-2018_p15_c02"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p25_c02"
+        ],
+        "elapsed_ms": 0.73
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p25_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p25_c02 | starter/data/24-2018-qh14.pdf | page 25]\nb) Ngăn chặn việc chia sẻ thông tin, xóa bỏ thông tin có nội dung quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 của Luật này trên dịch vụ hoặc hệ thống thông tin do cơ quan, tổ chức trực tiếp quản lý chậm nhất là 24 giờ kể từ thời điểm có yêu cầu của lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an hoặc cơ quan có thẩm quyền của Bộ Thông tin và Truyền thông và lưu nhật ký hệ thống để phục vụ điều tra, xử lý hành vi vi phạm pháp luật về an ninh mạng trong thời gian",
+    "context_chars": 557,
+    "answer": "Doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, Internet phải ngăn chặn việc chia sẻ và xóa bỏ thông tin vi phạm quy định tại các khoản 1, 2, 3, 4 và 5 Điều 16 chậm nhất trong thời gian 24 giờ kể từ thời điểm có yêu cầu.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p25_c02"
+    ],
+    "elapsed_ms": 7087.54,
+    "prompt_tokens": 1175,
+    "completion_tokens": 156,
+    "cost_usd": 0.00027,
+    "error": null
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Trong quy định về bảo đảm hoạt động bảo vệ an ninh mạng, công dân Việt Nam cần đáp ứng những tiêu chuẩn gì để có thể được tuyển chọn vào lực lượng bảo vệ an ninh mạng?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "tiêu chuẩn tuyển chọn lực lượng bảo vệ an ninh mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p28_c02",
+          "B_luat-an-ninh-mang-2018_p27_c04",
+          "B_luat-an-ninh-mang-2018_p03_c04"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p28_c02",
+          "B_luat-an-ninh-mang-2018_p03_c04"
+        ],
+        "elapsed_ms": 1.03
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p28_c02",
+      "B_luat-an-ninh-mang-2018_p03_c04"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p28_c02 | starter/data/24-2018-qh14.pdf | page 28]\nĐiều 32. Tuyển chọn, đào tạo, phát triển lực lượng bảo vệ an ninh mạng 1. Công dân Việt Nam có đủ tiêu chuẩn về phẩm chất đạo đức, sức khỏe, trình độ, kiến thức về an ninh mạng, an toàn thông tin mạng, công nghệ thông tin, có nguyện vọng thì có thể được tuyển chọn vào lực lượng bảo vệ an ninh mạng. 2. Ưu tiên đào tạo, phát triển lực lượng bảo vệ an ninh mạng có chất lượng cao.\n\n[B_luat-an-ninh-mang-2018_p03_c04 | starter/data/24-2018-qh14.pdf | page 3]\n3. Ưu tiên nguồn lực xây dựng lực lượng chuyên trách bảo vệ an ninh mạng; nâng cao năng lực cho lực lượng bảo vệ an ninh mạng và tổ chức, cá nhân tham gia bảo vệ an ninh mạng; ưu tiên đầu tư cho nghiên cứu, phát triển khoa học, công nghệ để bảo vệ an ninh mạng.",
+    "context_chars": 795,
+    "answer": "Công dân Việt Nam cần có đủ tiêu chuẩn về phẩm chất đạo đức, sức khỏe, trình độ, kiến thức về an ninh mạng, an toàn thông tin mạng, công nghệ thông tin và có nguyện vọng để được tuyển chọn vào lực lượng bảo vệ an ninh mạng. [B_luat-an-ninh-mang-2018_p28_c02]",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p28_c02"
+    ],
+    "elapsed_ms": 6884.76,
+    "prompt_tokens": 1177,
+    "completion_tokens": 140,
+    "cost_usd": 0.000261,
+    "error": null
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "question": "Theo Luật An ninh mạng 2018, mức phạt tiền cụ thể (tính bằng đồng) đối với hành vi vi phạm hành chính về lưu trữ dữ liệu tại Việt Nam là bao nhiêu?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "mức phạt tiền hành vi vi phạm hành chính về lưu trữ dữ liệu",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p07_c04",
+          "B_luat-an-ninh-mang-2018_p25_c04",
+          "B_luat-an-ninh-mang-2018_p18_c02"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p07_c04"
+        ],
+        "elapsed_ms": 1.44
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p07_c04"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p07_c04 | starter/data/24-2018-qh14.pdf | page 7]\n6. Hành vi khác vi phạm quy định của Luật này. Điều 9. Xử lý vi phạm pháp luật về an ninh mạng Người nào có hành vi vi phạm quy định của Luật này thì tùy theo tính chất, mức độ vi phạm mà bị xử lý kỷ luật, xử lý vi phạm hành chính hoặc bị truy cứu trách nhiệm hình sự, nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.",
+    "context_chars": 411,
+    "answer": "Không có thông tin cụ thể về mức phạt tiền đối với hành vi vi phạm hành chính về lưu trữ dữ liệu trong Luật An ninh mạng 2018.",
+    "citations": [],
+    "elapsed_ms": 12093.74,
+    "prompt_tokens": 1762,
+    "completion_tokens": 113,
+    "cost_usd": 0.000332,
+    "error": null
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "question": "Luật An ninh mạng 2018 quy định như thế nào về việc cấp phép và quản lý sàn giao dịch tiền điện tử (cryptocurrency) hoặc tài sản mã hóa?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "cấp phép sàn giao dịch tiền điện tử",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p14_c04",
+          "B_luat-an-ninh-mang-2018_p02_c03",
+          "B_luat-an-ninh-mang-2018_p24_c05"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p14_c04"
+        ],
+        "elapsed_ms": 1.09
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p14_c04"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p14_c04 | starter/data/24-2018-qh14.pdf | page 14]\n4. Thông tin trên không gian mạng có nội dung xâm phạm trật tự quản lý kinh tế bao gồm: a) Thông tin bịa đặt, sai sự thật về sản phẩm, hàng hóa, tiền, trái phiếu, tín phiếu, công trái, séc và các loại giấy tờ có giá khác; b) Thông tin bịa đặt, sai sự thật trong lĩnh vực tài chính, ngân hàng, thương mại điện tử, thanh toán điện tử, kinh doanh tiền tệ, huy động vốn, kinh doanh đa cấp, chứng khoán.",
+    "context_chars": 475,
+    "answer": "Không có thông tin cụ thể trong Luật An ninh mạng 2018 về việc cấp phép và quản lý sàn giao dịch tiền điện tử hoặc tài sản mã hóa.",
+    "citations": [],
+    "elapsed_ms": 13816.2,
+    "prompt_tokens": 1772,
+    "completion_tokens": 105,
+    "cost_usd": 0.000329,
+    "error": null
+  }
+]

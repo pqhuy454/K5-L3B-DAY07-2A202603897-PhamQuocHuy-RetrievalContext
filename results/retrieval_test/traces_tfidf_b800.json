@@ -1,0 +1,228 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "config": "tfidf_b800",
+    "question": "Sự việc bất ngờ phát sinh trên không gian mạng xâm phạm đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của tổ chức, cá nhân được định nghĩa là thuật ngữ gì?",
+    "filter_used": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "top3": [
+      {
+        "id": "B_luat-an-ninh-mang-2018_p03_c02",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 3,
+        "rank": 1,
+        "score": 0.612899,
+        "hit": true
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p01_c02",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 1,
+        "rank": 2,
+        "score": 0.518805,
+        "hit": false
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p05_c01",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 5,
+        "rank": 3,
+        "score": 0.490574,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p03_c02"
+    ],
+    "context_chars": 553,
+    "approx_context_tokens": 138,
+    "elapsed_ms": 0.99,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "error": null
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "config": "tfidf_b800",
+    "question": "Hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý được gọi là hoạt động gì?",
+    "filter_used": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "top3": [
+      {
+        "id": "B_luat-an-ninh-mang-2018_p12_c03",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 12,
+        "rank": 1,
+        "score": 0.917541,
+        "hit": true
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p12_c05",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 12,
+        "rank": 2,
+        "score": 0.51702,
+        "hit": false
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p12_c04",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 12,
+        "rank": 3,
+        "score": 0.496112,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p12_c03",
+      "B_luat-an-ninh-mang-2018_p12_c05"
+    ],
+    "context_chars": 776,
+    "approx_context_tokens": 194,
+    "elapsed_ms": 0.78,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "error": null
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "config": "tfidf_b800",
+    "question": "Khi kiểm tra an ninh mạng đối với hệ thống thông tin không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia, trong thời hạn bao nhiêu ngày kể từ ngày kết thúc kiểm tra thì lực lượng chuyên trách phải thông báo kết quả kiểm tra?",
+    "filter_used": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "top3": [
+      {
+        "id": "B_luat-an-ninh-mang-2018_p11_c05",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 11,
+        "rank": 1,
+        "score": 0.667256,
+        "hit": false
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p24_c01",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 24,
+        "rank": 2,
+        "score": 0.634402,
+        "hit": true
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p11_c02",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 11,
+        "rank": 3,
+        "score": 0.486463,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p11_c05"
+    ],
+    "context_chars": 392,
+    "approx_context_tokens": 98,
+    "elapsed_ms": 0.68,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false,
+    "error": null
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "config": "tfidf_b800",
+    "question": "Theo quy định về trách nhiệm của các cơ quan tại Chương VI, Bộ Thông tin và Truyền thông có trách nhiệm phối hợp tuyên truyền, phản bác thông tin chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại điều khoản nào?",
+    "filter_used": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "top3": [
+      {
+        "id": "B_luat-an-ninh-mang-2018_p30_c03",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 30,
+        "rank": 1,
+        "score": 0.735196,
+        "hit": true
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p14_c01",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 14,
+        "rank": 2,
+        "score": 0.472264,
+        "hit": false
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p01_c01",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 1,
+        "rank": 3,
+        "score": 0.401616,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p30_c03"
+    ],
+    "context_chars": 383,
+    "approx_context_tokens": 95,
+    "elapsed_ms": 0.66,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "error": null
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "config": "tfidf_b800",
+    "question": "Luật An ninh mạng có hiệu lực thi hành từ ngày nào, và hệ thống thông tin đang vận hành được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia có thời hạn bao lâu (kể cả gia hạn tối đa) để bảo đảm đủ điều kiện an ninh mạng?",
+    "filter_used": null,
+    "top_k": 3,
+    "budget_chars": 800,
+    "top3": [
+      {
+        "id": "B_luat-an-ninh-mang-2018_p32_c03",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 32,
+        "rank": 1,
+        "score": 0.592081,
+        "hit": true
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p32_c04",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 32,
+        "rank": 2,
+        "score": 0.514365,
+        "hit": false
+      },
+      {
+        "id": "B_luat-an-ninh-mang-2018_p09_c03",
+        "source_id": "luat-an-ninh-mang-2018",
+        "page": 9,
+        "rank": 3,
+        "score": 0.39393,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p32_c03"
+    ],
+    "context_chars": 530,
+    "approx_context_tokens": 132,
+    "elapsed_ms": 0.7,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false,
+    "error": null
+  }
+]

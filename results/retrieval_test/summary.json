@@ -1,0 +1,38 @@
+[
+  {
+    "config": "tfidf_b800",
+    "split": "test",
+    "n": 5,
+    "top_k": 3,
+    "budget_chars": 800,
+    "use_filter": false,
+    "hit1": "4/5 (80.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_evidence_rate": "3/5 (60.0%)",
+    "hit1_count": 4,
+    "hit3_count": 5,
+    "context_hit_count": 3,
+    "avg_context_chars": 526.8,
+    "median_ms": 0.7,
+    "errors": 0,
+    "service_cost_usd": 0.0
+  },
+  {
+    "config": "hybrid_rrf_b1600",
+    "split": "test",
+    "n": 5,
+    "top_k": 3,
+    "budget_chars": 1600,
+    "use_filter": false,
+    "hit1": "4/5 (80.0%)",
+    "hit3": "5/5 (100.0%)",
+    "context_evidence_rate": "4/5 (80.0%)",
+    "hit1_count": 4,
+    "hit3_count": 5,
+    "context_hit_count": 4,
+    "avg_context_chars": 1338.2,
+    "median_ms": 107.34,
+    "errors": 0,
+    "service_cost_usd": 0.0
+  }
+]

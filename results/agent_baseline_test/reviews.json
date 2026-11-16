@@ -1,0 +1,44 @@
+[
+  {
+    "query_id": "q16",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đáp án đúng 'sự cố an ninh mạng', trích dẫn p03_c02 khớp khoản 13 Điều 2."
+  },
+  {
+    "query_id": "q17",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đáp án đúng 'giám sát an ninh mạng', trích dẫn p12_c03 khớp khoản 1."
+  },
+  {
+    "query_id": "q18",
+    "citation_support": [],
+    "answer_grade": 0,
+    "notes": "Từ chối nhầm câu có đáp án do budget=800 chỉ lấy được p23_c02, rớt p24_c01."
+  },
+  {
+    "query_id": "q19",
+    "citation_support": [true],
+    "answer_grade": 2,
+    "notes": "Đáp án đúng khoản 1 Điều 16, trích dẫn p30_c03 (Điều 38) hỗ trợ trực tiếp."
+  },
+  {
+    "query_id": "q20",
+    "citation_support": [true, true],
+    "answer_grade": 2,
+    "notes": "Đáp án đủ ngày hiệu lực 01/01/2019 và thời hạn 12 tháng + gia hạn tối đa 12 tháng; trích dẫn đủ p32_c02 và p32_c03."
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối đúng; Luật không đề cập ISO/IEC 27001 hay GDPR."
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "notes": "Từ chối đúng; Luật không quy định thuế suất ưu đãi hay miễn thuế TNDN."
+  }
+]

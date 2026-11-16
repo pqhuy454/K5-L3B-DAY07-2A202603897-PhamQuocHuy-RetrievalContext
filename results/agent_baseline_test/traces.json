@@ -1,0 +1,276 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Sự việc bất ngờ phát sinh trên không gian mạng xâm phạm đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của tổ chức, cá nhân được định nghĩa là thuật ngữ gì?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "sự việc bất ngờ phát sinh trên không gian mạng xâm phạm đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của tổ chức, cá nhân",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p03_c02",
+          "B_luat-an-ninh-mang-2018_p05_c01",
+          "B_luat-an-ninh-mang-2018_p03_c03"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p03_c02"
+        ],
+        "elapsed_ms": 1.01
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p03_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p03_c02 | starter/data/24-2018-qh14.pdf | page 3]\n13. Sự cố an ninh mạng là sự việc bất ngờ xảy ra trên không gian mạng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân. 14. Tình huống nguy hiểm về an ninh mạng là sự việc xảy ra trên không gian mạng khi có hành vi xâm phạm nghiêm trọng an ninh quốc gia, gây tổn hại đặc biệt nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân. Điều 3. Chính sách của Nhà nước về an ninh mạng",
+    "context_chars": 553,
+    "answer": "Sự việc bất ngờ phát sinh trên không gian mạng xâm phạm đến an ninh quốc gia, trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của tổ chức, cá nhân được định nghĩa là 'sự cố an ninh mạng'.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p03_c02"
+    ],
+    "elapsed_ms": 4599.99,
+    "prompt_tokens": 1156,
+    "completion_tokens": 150,
+    "cost_usd": 0.000263,
+    "error": null
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý được gọi là hoạt động gì?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p12_c03",
+          "B_luat-an-ninh-mang-2018_p03_c01",
+          "B_luat-an-ninh-mang-2018_p13_c01"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p12_c03",
+          "B_luat-an-ninh-mang-2018_p03_c01"
+        ],
+        "elapsed_ms": 1.42
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p12_c03",
+      "B_luat-an-ninh-mang-2018_p03_c01"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p12_c03 | starter/data/24-2018-qh14.pdf | page 12]\n1. Giám sát an ninh mạng là hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý.\n\n[B_luat-an-ninh-mang-2018_p03_c01 | starter/data/24-2018-qh14.pdf | page 3]\n11. Tài khoản số là thông tin dùng để chứng thực, xác thực, phân quyền sử dụng các ứng dụng, dịch vụ trên không gian mạng. 12. Nguy cơ đe dọa an ninh mạng là tình trạng không gian mạng xuất hiện dấu hiệu đe dọa xâm phạm an ninh quốc gia, gây tổn hại nghiêm trọng trật tự, an toàn xã hội, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.",
+    "context_chars": 713,
+    "answer": "Hoạt động thu thập, phân tích tình hình nhằm xác định nguy cơ đe dọa an ninh mạng, sự cố an ninh mạng, điểm yếu, lỗ hổng bảo mật, mã độc, phần cứng độc hại để cảnh báo, khắc phục, xử lý được gọi là 'giám sát an ninh mạng'.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p12_c03"
+    ],
+    "elapsed_ms": 3991.15,
+    "prompt_tokens": 1234,
+    "completion_tokens": 147,
+    "cost_usd": 0.000273,
+    "error": null
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Khi kiểm tra an ninh mạng đối với hệ thống thông tin không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia, trong thời hạn bao nhiêu ngày kể từ ngày kết thúc kiểm tra thì lực lượng chuyên trách phải thông báo kết quả kiểm tra?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "thời hạn thông báo kết quả kiểm tra an ninh mạng hệ thống thông tin không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p23_c02",
+          "B_luat-an-ninh-mang-2018_p12_c02",
+          "B_luat-an-ninh-mang-2018_p23_c03"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p23_c02"
+        ],
+        "elapsed_ms": 1.55
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p23_c02"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p23_c02 | starter/data/24-2018-qh14.pdf | page 23]\ne) Kiểm tra an ninh mạng đối với hệ thống thông tin; phòng, chống hành vi vi phạm pháp luật về an ninh mạng; ứng phó, khắc phục sự cố an ninh mạng. 2. Người đứng đầu cơ quan, tổ chức có trách nhiệm triển khai hoạt động bảo vệ an ninh mạng thuộc quyền quản lý. Điều 24. Kiểm tra an ninh mạng đối với hệ thống thông tin của cơ quan, tổ chức không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia",
+    "context_chars": 486,
+    "answer": "Thiếu thông tin cụ thể về thời hạn thông báo kết quả kiểm tra an ninh mạng đối với hệ thống thông tin không thuộc Danh mục hệ thống thông tin quan trọng về an ninh quốc gia.",
+    "citations": [],
+    "elapsed_ms": 16838.05,
+    "prompt_tokens": 1876,
+    "completion_tokens": 139,
+    "cost_usd": 0.000365,
+    "error": null
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Theo quy định về trách nhiệm của các cơ quan tại Chương VI, Bộ Thông tin và Truyền thông có trách nhiệm phối hợp tuyên truyền, phản bác thông tin chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại điều khoản nào?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "trách nhiệm của Bộ Thông tin và Truyền thông tuyên truyền phản bác thông tin chống Nhà nước",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p30_c03",
+          "B_luat-an-ninh-mang-2018_p14_c01",
+          "B_luat-an-ninh-mang-2018_p23_c04"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p30_c03"
+        ],
+        "elapsed_ms": 1.77
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p30_c03"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p30_c03 | starter/data/24-2018-qh14.pdf | page 30]\nĐiều 38. Trách nhiệm của Bộ Thông tin và Truyền thông 1. Phối hợp với Bộ Công an, Bộ Quốc phòng trong bảo vệ an ninh mạng. 2. Phối hợp với các cơ quan liên quan tổ chức tuyên truyền, phản bác thông tin có nội dung chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại khoản 1 Điều 16 của Luật này.",
+    "context_chars": 383,
+    "answer": "Bộ Thông tin và Truyền thông có trách nhiệm phối hợp tuyên truyền, phản bác thông tin chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam theo quy định tại khoản 1 Điều 16 của Luật An ninh mạng 2018.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p30_c03"
+    ],
+    "elapsed_ms": 9860.5,
+    "prompt_tokens": 1092,
+    "completion_tokens": 129,
+    "cost_usd": 0.000241,
+    "error": null
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Luật An ninh mạng có hiệu lực thi hành từ ngày nào, và hệ thống thông tin đang vận hành được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia có thời hạn bao lâu (kể cả gia hạn tối đa) để bảo đảm đủ điều kiện an ninh mạng?",
+    "status": "answered",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "Luật An ninh mạng có hiệu lực thi hành từ ngày nào",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p32_c02",
+          "B_luat-an-ninh-mang-2018_p32_c03",
+          "B_luat-an-ninh-mang-2018_p11_c05"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p32_c02",
+          "B_luat-an-ninh-mang-2018_p32_c03"
+        ],
+        "elapsed_ms": 1.26
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p32_c02",
+      "B_luat-an-ninh-mang-2018_p32_c03"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p32_c02 | starter/data/24-2018-qh14.pdf | page 32]\nChương VII ĐIỀU KHOẢN THI HÀNH Điều 43. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019.\n\n[B_luat-an-ninh-mang-2018_p32_c03 | starter/data/24-2018-qh14.pdf | page 32]\n2. Hệ thống thông tin đang vận hành, sử dụng được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia thì trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực, chủ quản hệ thống thông tin có trách nhiệm bảo đảm đủ điều kiện an ninh mạng, lực lượng chuyên trách bảo vệ an ninh mạng đánh giá điều kiện an ninh mạng theo quy định tại Điều 12 của Luật này; trường hợp cần gia hạn do Thủ tướng Chính phủ quyết định nhưng không quá 12 tháng.",
+    "context_chars": 729,
+    "answer": "Luật An ninh mạng có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019. Hệ thống thông tin đang vận hành được đưa vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia có thời hạn 12 tháng để bảo đảm đủ điều kiện an ninh mạng, có thể gia hạn thêm tối đa 12 tháng theo quyết định của Thủ tướng Chính phủ.",
+    "citations": [
+      "B_luat-an-ninh-mang-2018_p32_c02",
+      "B_luat-an-ninh-mang-2018_p32_c03"
+    ],
+    "elapsed_ms": 14919.26,
+    "prompt_tokens": 1299,
+    "completion_tokens": 213,
+    "cost_usd": 0.000323,
+    "error": null
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "question": "Theo Luật An ninh mạng 2018, tổ chức, cá nhân phải tuân thủ tiêu chuẩn bảo mật quốc tế ISO/IEC 27001 hoặc quy định GDPR của Liên minh châu Âu trong thời hạn bao lâu?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "tiêu chuẩn bảo mật quốc tế ISO/IEC 27001",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p06_c01",
+          "B_luat-an-ninh-mang-2018_p06_c02",
+          "B_luat-an-ninh-mang-2018_p24_c03"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p06_c01"
+        ],
+        "elapsed_ms": 0.41
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p06_c01"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p06_c01 | starter/data/24-2018-qh14.pdf | page 6]\ne) Tổ chức hội nghị, hội thảo và diễn đàn quốc tế về an ninh mạng; g) Ký kết và thực hiện điều ước quốc tế, thỏa thuận quốc tế về an ninh mạng; h) Thực hiện chương trình, dự án hợp tác quốc tế về an ninh mạng; i) Hoạt động hợp tác quốc tế khác về an ninh mạng.",
+    "context_chars": 336,
+    "answer": "Không tìm thấy thông tin cụ thể về thời hạn tuân thủ tiêu chuẩn bảo mật quốc tế ISO/IEC 27001 hoặc quy định GDPR trong Luật An ninh mạng 2018.",
+    "citations": [],
+    "elapsed_ms": 8016.92,
+    "prompt_tokens": 1143,
+    "completion_tokens": 130,
+    "cost_usd": 0.000249,
+    "error": null
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "Luật An ninh mạng 2018 có quy định mức thuế suất ưu đãi hoặc chính sách miễn thuế thu nhập doanh nghiệp cho doanh nghiệp cung cấp dịch vụ an ninh mạng không, nếu có là bao nhiêu phần trăm?",
+    "status": "abstain",
+    "events": [
+      {
+        "type": "search",
+        "tool": "search_keyword",
+        "query": "thuế suất ưu đãi doanh nghiệp an ninh mạng",
+        "filter": null,
+        "top_k": 3,
+        "returned_ids": [
+          "B_luat-an-ninh-mang-2018_p03_c04",
+          "B_luat-an-ninh-mang-2018_p20_c05",
+          "B_luat-an-ninh-mang-2018_p30_c04"
+        ],
+        "added_to_context": [
+          "B_luat-an-ninh-mang-2018_p03_c04",
+          "B_luat-an-ninh-mang-2018_p20_c05"
+        ],
+        "elapsed_ms": 0.95
+      }
+    ],
+    "search_count": 1,
+    "context_ids": [
+      "B_luat-an-ninh-mang-2018_p03_c04",
+      "B_luat-an-ninh-mang-2018_p20_c05"
+    ],
+    "context": "[B_luat-an-ninh-mang-2018_p03_c04 | starter/data/24-2018-qh14.pdf | page 3]\n3. Ưu tiên nguồn lực xây dựng lực lượng chuyên trách bảo vệ an ninh mạng; nâng cao năng lực cho lực lượng bảo vệ an ninh mạng và tổ chức, cá nhân tham gia bảo vệ an ninh mạng; ưu tiên đầu tư cho nghiên cứu, phát triển khoa học, công nghệ để bảo vệ an ninh mạng.\n\n[B_luat-an-ninh-mang-2018_p20_c05 | starter/data/24-2018-qh14.pdf | page 20]\nb) Doanh nghiệp viễn thông, Internet, công nghệ thông tin, doanh nghiệp cung cấp dịch vụ trên mạng viễn thông, mạng Internet, các dịch vụ gia tăng trên không gian mạng và cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm phối hợp với lực lượng chuyên trách bảo vệ an ninh mạng thuộc Bộ Công an trong phòng ngừa, phát hiện, xử lý tình huống nguy hiểm về an ninh mạng.",
+    "context_chars": 786,
+    "answer": "Không có thông tin cụ thể về mức thuế suất ưu đãi hoặc chính sách miễn thuế thu nhập doanh nghiệp cho doanh nghiệp cung cấp dịch vụ an ninh mạng trong Luật An ninh mạng 2018.",
+    "citations": [],
+    "elapsed_ms": 39726.27,
+    "prompt_tokens": 1976,
+    "completion_tokens": 119,
+    "cost_usd": 0.000368,
+    "error": null
+  }
+]
